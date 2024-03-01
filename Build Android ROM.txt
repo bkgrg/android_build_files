@@ -127,11 +127,12 @@ echo "PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/extra/keys/releasekey" > ~/andro
 #13. Building ROM
 cd ~/android/lineage
 source build/envsetup.sh
-breakfast lineage_ruby-eng
+breakfast lineage_ruby-userdebug
 croot
-mka target-files-package otatools -j$(nproc --all) |tee buildlog.txt
 brunch lineage_ruby-userdebug -j$(nproc --all) |tee buildlog.txt
 cd $OUT
+mka target-files-package otatools -j$(nproc --all) |tee buildlog.txt
+
 
 #14. Check logcats
 adb shell su -c dmesg > dmesg.log
