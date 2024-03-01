@@ -1,0 +1,43 @@
+### Common Terminal Commands##################################################
+
+#1. Swapfile 24GB & swappiness=80
+sudo swapoff -a -v
+sudo rm /swapfile
+sudo dd if=/dev/zero of=/swapfile bs=1k count=25165824
+mkswap /swapfile
+chmod 0600 /swapfile
+swapon /swapfile
+echo "/swapfile swap swap auto 0 0" | tee -a /etc/fstab
+sysctl -w vm.swappiness=80
+echo vm.swappiness = 80 | tee -a /etc/sysctl.conf
+
+#2. Updates & Cleanup
+sudo ubuntu-drivers install
+sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y
+sudo apt clean
+sudo apt update -m
+sudo dpkg --configure -a
+sudo apt install -f
+sudo apt autoremove --purge
+sudo do-release-upgrade
+sudo apt autoremove -y
+sudo apt autoclean -y
+sudo apt autoremove --purge -y
+sudo apt clean -y
+
+#3. Install commonly used packages
+sudo apt-get install gedit
+sudo apt-get install telegram-desktop
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i google-chrome-stable_current_amd64.deb && sudo apt-get install -f
+wget https://release.gitkraken.com/linux/gitkraken-amd64.deb && sudo apt-get install gitkraken-amd64.deb
+
+#4. Reinstall required packages
+apt list --installed
+sudo apt remove xxxx
+sudo apt autoremove -y
+sudo rm -r /usr/bin/xxxx
+sudo apt install xxxx
+sudo apt update
+
+#5. Find string in a folder containing files
+grep -Rnw '/path/to/somewhere/' -e 'pattern'
