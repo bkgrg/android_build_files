@@ -129,8 +129,8 @@ cd ~/android/lineage
 source build/envsetup.sh
 breakfast lineage_ruby-eng
 croot
-mka target-files-package otatools -j$(nproc --all) |tee MyBuildLogs.txt
-brunch lineage_ruby-userdebug -j$(nproc --all) |tee MyBuildLogs.txt
+mka target-files-package otatools -j$(nproc --all) |tee buildlog.txt
+brunch lineage_ruby-userdebug -j$(nproc --all) |tee buildlog.txt
 cd $OUT
 
 #14. Check logcats
