@@ -38,7 +38,7 @@ sudo apt autoremove --purge -y
 sudo apt clean -y
 
 #4. Install required packages
-sudo apt-get install adb bc bison build-essential ccache curl flex fontconfig gcc-multilib git git-core git-lfs gnupg g++-multilib libc6-dev-i386 libgl1-mesa-dev libxml2-utils libx11-dev lib32z1-dev python-is-python3 repo xsltproc x11proto-core-dev unzip wget zip zlib1g-dev -y
+sudo apt-get install adb bc bison build-essential curl flex gcc-multilib git git-core git-lfs gnupg g++-multilib libc6-dev-i386 libgl1-mesa-dev libxml2-utils libx11-dev lib32z1-dev python-is-python3 repo xsltproc x11proto-core-dev unzip wget zip zlib1g-dev -y
 
 wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libtinfo5_6.4-2_amd64.deb && sudo dpkg -i libtinfo5_6.4-2_amd64.deb && rm -f libtinfo5_6.4-2_amd64.deb
 wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libncurses5_6.4-2_amd64.deb && sudo dpkg -i libncurses5_6.4-2_amd64.deb && rm -f libncurses5_6.4-2_amd64.deb
