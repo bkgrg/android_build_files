@@ -2,16 +2,7 @@
 
 # Setting build environment ########################################
 
-#1. Swapfile 24GB & swappiness=80
-sudo swapoff -a -v
-sudo rm /swapfile
-sudo dd if=/dev/zero of=/swapfile bs=1k count=25165824
-mkswap /swapfile && chmod 0600 /swapfile && swapon /swapfile
-echo "/swapfile swap swap auto 0 0" | tee -a /etc/fstab
-sysctl -w vm.swappiness=200
-echo vm.swappiness = 200 | tee -a /etc/sysctl.conf
-
-#2. Configure platform-tools
+#1. Configure platform-tools
 cd ~
 wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip
 unzip platform-tools-latest-linux.zip -d ~
@@ -23,21 +14,7 @@ fi
 EOF
 source ~/.profile
 
-#3. Updates
-sudo ubuntu-drivers install
-sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y
-sudo apt clean
-sudo apt update -m
-sudo dpkg --configure -a
-sudo apt install -f
-sudo apt autoremove --purge
-sudo do-release-upgrade
-sudo apt autoremove -y
-sudo apt autoclean -y
-sudo apt autoremove --purge -y
-sudo apt clean -y
-
-#4. Install required packages
+#2. Install required packages
 sudo apt-get install adb bc bison build-essential curl flex gcc-multilib git git-core git-lfs gnupg g++-multilib libc6-dev-i386 libgl1-mesa-dev libxml2-utils libx11-dev lib32z1-dev python-is-python3 repo xsltproc x11proto-core-dev unzip wget zip zlib1g-dev -y
 
 wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libtinfo5_6.4-2_amd64.deb && sudo dpkg -i libtinfo5_6.4-2_amd64.deb && rm -f libtinfo5_6.4-2_amd64.deb

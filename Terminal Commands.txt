@@ -1,15 +1,17 @@
 ### Common Terminal Commands##################################################
 
-#1. Swapfile 24GB & swappiness=80
-sudo swapoff -a -v
-sudo rm /swapfile
-sudo dd if=/dev/zero of=/swapfile bs=1k count=25165824
-mkswap /swapfile
-chmod 0600 /swapfile
-swapon /swapfile
+#1. Swapfile 24GB & swappiness=100 & cache_pressure=50
+sudo su
+swapoff -a
+swapoff -a -v
+rm /swapfile
+dd if=/dev/zero of=/swapfile bs=1k count=25165824
+mkswap /swapfile && chmod 600 /swapfile && swapon /swapfile
 echo "/swapfile swap swap auto 0 0" | tee -a /etc/fstab
-sysctl -w vm.swappiness=80
-echo vm.swappiness = 80 | tee -a /etc/sysctl.conf
+sysctl -w vm.swappiness=100
+sysctl -w vm.vfs_cache_pressure=50
+echo vm.swappiness=100 | tee -a /etc/sysctl.conf
+echo vm.vfs_cache_pressure=50 | tee -a /etc/sysctl.conf
 
 #2. Updates & Cleanup
 sudo ubuntu-drivers install
@@ -35,12 +37,9 @@ wget https://release.gitkraken.com/linux/gitkraken-amd64.deb && sudo apt-get ins
 apt list --installed
 sudo apt remove xxxx
 sudo apt autoremove -y
-sudo rm -r /usr/bin/xxxx
+sudo rm -r /xxx/xxx/xxxx
 sudo apt install xxxx
 sudo apt update
 
 #5. Find string in a folder containing files
 grep -Rnw '/path/to/somewhere/' -e 'pattern'
-
-#6. Free-up RAM
-free -h && sudo sysctl -w vm.drop_caches=3 && sudo sync && echo 3 | sudo tee /proc/sys/vm/drop_caches && free -h
