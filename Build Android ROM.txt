@@ -8,8 +8,8 @@ sudo rm /swapfile
 sudo dd if=/dev/zero of=/swapfile bs=1k count=25165824
 mkswap /swapfile && chmod 0600 /swapfile && swapon /swapfile
 echo "/swapfile swap swap auto 0 0" | tee -a /etc/fstab
-sysctl -w vm.swappiness=80
-echo vm.swappiness = 80 | tee -a /etc/sysctl.conf
+sysctl -w vm.swappiness=200
+echo vm.swappiness = 200 | tee -a /etc/sysctl.conf
 
 #2. Configure platform-tools
 cd ~
@@ -127,9 +127,9 @@ echo "PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/extra/keys/releasekey" > ~/andro
 #13. Building ROM
 cd ~/android/lineage
 source build/envsetup.sh
-breakfast lineage_ruby-userdebug
+breakfast lineage_ruby-eng
 croot
-brunch lineage_ruby-userdebug -j$(nproc --all) |tee buildlog.txt
+brunch lineage_ruby-eng -j$(nproc --all) |tee buildlog.txt
 cd $OUT
 mka target-files-package otatools -j$(nproc --all) |tee buildlog.txt
 
