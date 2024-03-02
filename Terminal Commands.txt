@@ -43,3 +43,6 @@ sudo apt update
 
 #5. Find string in a folder containing files
 grep -Rnw '/path/to/somewhere/' -e 'pattern'
+
+#6. New Document context menu
+touch ~/Templates/Untitled\ Document

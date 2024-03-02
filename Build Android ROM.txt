@@ -115,3 +115,6 @@ mka target-files-package otatools -j$(nproc --all) |tee buildlog.txt
 adb shell su -c dmesg > dmesg.log
 adb logcat -b all > logcat.txt
 adb logcat -db radio > radio.txt
+
+#15. Build errors
+Check for "msg='avc:  denied"
