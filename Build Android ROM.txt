@@ -15,7 +15,7 @@ EOF
 source ~/.profile
 
 #2. Install required packages
-sudo apt-get install adb bc bison build-essential curl flex gcc-multilib git git-core git-lfs gnupg g++-multilib libc6-dev-i386 libgl1-mesa-dev libxml2-utils libx11-dev lib32z1-dev python-is-python3 repo xsltproc x11proto-core-dev unzip wget zip zlib1g-dev -y
+sudo apt-get install adb bc bison build-essential ccache curl flex gcc-multilib git git-core git-lfs gnupg g++-multilib libc6-dev-i386 libgl1-mesa-dev libxml2-utils libx11-dev lib32z1-dev python-is-python3 repo xsltproc x11proto-core-dev unzip wget zip zlib1g-dev -y
 
 wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libtinfo5_6.4-2_amd64.deb && sudo dpkg -i libtinfo5_6.4-2_amd64.deb && rm -f libtinfo5_6.4-2_amd64.deb
 wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libncurses5_6.4-2_amd64.deb && sudo dpkg -i libncurses5_6.4-2_amd64.deb && rm -f libncurses5_6.4-2_amd64.deb
@@ -31,7 +31,9 @@ CCACHE_EXEC=/usr/bin/ccache
 CCACHE_DIR=/mnt/ccache
 ccache -M 75G
 EOF
+sudo su
 echo "/home/bkgrg/.cache/ccache /mnt/ccache none defaults,bind,users,noauto 0 0" | tee -a /etc/fstab
+exit
 echo "mount /mnt/ccache" | tee -a ~/.profile
 source ~/.profile
 
@@ -57,21 +59,22 @@ mkdir -p ~/android/lineage/.repo/local_manifests
 cat >> ~/android/lineage/.repo/local_manifests/ruby.xml << EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="gitlab" fetch="https://gitlab.com" /> 
-    <project name="wodanesdag/android_device_xiaomi_ruby" path="device/xiaomi/ruby" remote="github" revision="14.0" />
-    <project name="wodanesdag/android_device_xiaomi_miuicamera-ruby" path="device/xiaomi/miuicamera-ruby" remote="github" revision="main" />
+<!--    <remote name="gitlab" fetch="https://gitlab.com" /> -->
+    <project name="xiaomi-mediatek-devs/android_device_xiaomi_ruby" path="device/xiaomi/ruby" remote="github" revision="lineage-21" />
     <project name="xiaomi-mediatek-devs/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="lineage-21" />
     <project name="xiaomi-mediatek-devs/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-21" />
     <project name="xiaomi-mediatek-devs/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-21" />
-    <project name="wodanesdag/android_kernel_xiaomi_mt6877" path="kernel/xiaomi/mt6877" remote="github" revision="13.0-ksu" />
-    <project name="wodanesdag/android_vendor_xiaomi_ruby" path="vendor/xiaomi/ruby" remote="github" revision="14.0" />
-    <project name="wodanesdag/android_vendor_xiaomi_miuicamera-ruby" path="vendor/xiaomi/miuicamera-ruby" remote="github" revision="udc" />
-    <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="upsilon" />
+    <project name="xiaomi-mediatek-devs/android_kernel_xiaomi_mt6877" path="kernel/xiaomi/mt6877" remote="github" revision="lineage-21" />
+<!--    <project name="wodanesdag/android_vendor_xiaomi_ruby" path="vendor/xiaomi/ruby" remote="github" revision="14.0" /> -->
+<!--    <project name="xiaomi-mediatek-devs/android_frameworks_av" path="frameworks/av" remote="github" revision="dolby/lineage-21.0" /> -->
+<!--    <project name="wodanesdag/android_device_xiaomi_miuicamera-ruby" path="device/xiaomi/miuicamera-ruby" remote="github" revision="main" /> -->
+<!--    <project name="wodanesdag/android_vendor_xiaomi_miuicamera-ruby" path="vendor/xiaomi/miuicamera-ruby" remote="github" revision="udc" /> -->
+<!--    <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="upsilon" /> -->
 </manifest>
 EOF
 
 #10. Downloading Source & Device Specific Codes
-repo sync -c -j$(nproc --all) -f --force-sync --no-clone-bundle --no-tags
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --force-remove-dirty
 
 #11. Clone tools for extracting Vendor Blobs
 git clone https://github.com/LineageOS/android_tools_extract-utils -b lineage-21.0 ~/android/tools/extract-utils
@@ -90,25 +93,49 @@ bash extract-files.sh /path/to/dump/zipname/
 
 #13. Generate Keys
 cd ~/android/lineage
-subject='/C=IN/ST=Tamilnadu/L=Chennai View/O=/OU=/CN=bkgrg/emailAddress=birju.vnit@gmail.com'
-mkdir ~/.android-certs
-for cert in bluetooth cyngn-app media networkstack platform releasekey sdk_sandbox shared testcert testkey verity; do \
+source build/envsetup.sh
+croot
+subject='/C=IN/ST=Tamilnadu/L=Chennai/O=bkgrg/OU=bkgrg/CN=bkgrg/emailAddress=birju.vnit@gmail.com'
+
+for cert in bluetooth cyngn-app media networkstack platform releasekey sdk_sandbox shared testcert testkey verifiedboot verity; do \
     ./development/tools/make_key ~/.android-certs/$cert "$subject"; \
 done
+
 cp ./development/tools/make_key ~/.android-certs/
 sed -i 's|2048|4096|g' ~/.android-certs/make_key
-mkdir -p ~/android/lineage/vendor/extra
-cp -r ~/.android-certs ~/android/lineage/vendor/extra/keys
-echo "PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/extra/keys/releasekey" > ~/android/lineage/vendor/extra/product.mk
+
+for apex in com.android.adbd com.android.adservices com.android.adservices.api com.android.appsearch com.android.art com.android.bluetooth com.android.btservices com.android.cellbroadcast com.android.compos com.android.configinfrastructure com.android.connectivity.resources com.android.conscrypt com.android.devicelock com.android.extservices com.android.hardware.wifi com.android.healthfitness com.android.hotspot2.osulogin com.android.i18n com.android.ipsec com.android.media com.android.media.swcodec com.android.mediaprovider com.android.nearby.halfsheet com.android.networkstack.tethering com.android.neuralnetworks com.android.ondevicepersonalization com.android.os.statsd com.android.permission com.android.resolv com.android.rkpd com.android.runtime com.android.safetycenter.resources com.android.scheduling com.android.sdkext com.android.support.apexer com.android.telephony com.android.telephonymodules com.android.tethering com.android.tzdata com.android.uwb com.android.uwb.resources com.android.virt com.android.vndk.current com.android.wifi com.android.wifi.dialog com.android.wifi.resources com.google.pixel.vibrator.hal com.qorvo.uwb; do \
+    subject='/C=IN/ST=Tamilnadu/L=Chennai/O=bkgrg/OU=bkgrg/CN=bkgrg/emailAddress=birju.vnit@gmail.com'; \
+    ~/.android-certs/make_key ~/.android-certs/$apex "$subject"; \
+    openssl pkcs8 -in ~/.android-certs/$apex.pk8 -inform DER -nocrypt -out ~/.android-certs/$apex.pem; \
+done
+
+cd ~/android/lineage
+mkdir -p vendor/certs
+cp --no-clobber ../../.android-certs/* vendor/certs
 
 #13. Building ROM
 cd ~/android/lineage
+export LINEAGE_DEV_CERTIFICATE=vendor/certs/releasekey
+export LINEAGE_VERITY_CERTIFICATE=vendor/certs/verity
+export USE_CCACHE=1
 source build/envsetup.sh
-breakfast lineage_ruby-eng
+lunch lineage_ruby-eng
 croot
-brunch lineage_ruby-eng -j$(nproc --all) |tee buildlog.txt
-cd $OUT
+num_procs=$(nproc)
+make -j$((num_procs - 1)) bacon |tee buildlog.txt
+
+
+#14. Building signed copy
 mka target-files-package otatools -j$(nproc --all) |tee buildlog.txt
+croot
+./build/tools/releasetools/sign_target_files_apks -o -d ~/.android-certs \
+	$OUT/obj/PACKAGING/target_files_intermediates/*-target_files-*.zip \
+	signed-target_files.zip
+./build/tools/releasetools/ota_from_target_files -k ~/.android-certs/releasekey 
+        --block --backup=true \
+        signed-target_files.zip \
+        signed-ota_update.zip
 
 
 #14. Check logcats
