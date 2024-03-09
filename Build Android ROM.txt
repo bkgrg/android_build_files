@@ -139,9 +139,14 @@ croot
 
 
 #14. Check logcats
+adb root
 adb shell su -c dmesg > dmesg.log
 adb logcat -b all > logcat.txt
+adb logcat -b kernel > kernel.txt
 adb logcat -db radio > radio.txt
+adb shell su root dmesg | grep 'avc: ' > dmesgavc.log
+adb pull /sys/fs/selinux/policy
+adb logcat -b events -d | audit2allow -p policy
 
 #15. Build errors
 Check for "msg='avc:  denied"

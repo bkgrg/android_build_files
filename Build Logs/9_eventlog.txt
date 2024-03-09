@@ -1,0 +1,314 @@
+--------- beginning of events
+03-09 02:08:54.132   492   492 I snet_event_log: [121035042,-1,]
+03-09 02:08:54.134   492   492 I auditd  : SELinux: Loaded service context from:
+03-09 02:08:54.134   492   492 I auditd  : 		/system/etc/selinux/plat_service_contexts
+03-09 02:08:54.134   492   492 I auditd  : 		/system_ext/etc/selinux/system_ext_service_contexts
+03-09 02:08:54.134   492   492 I auditd  : 		/vendor/etc/selinux/vendor_service_contexts
+01-01 05:30:00.040   490   490 I auditd  : type=2000 audit(0.0:1): state=initialized audit_enabled=0 res=1
+03-09 02:08:52.644   490   490 I auditd  : type=1403 audit(0.0:2): auid=4294967295 ses=4294967295 lsm=selinux res=1
+03-09 02:08:52.652   490   490 I auditd  : type=1404 audit(0.0:3): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295 enabled=1 old-enabled=1 lsm=selinux res=1
+03-09 02:08:52.756     1     1 I auditd  : type=1107 audit(0.0:4): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc:  denied  { set } for property=ro.mtk_cam_stereo_camera_support pid=1 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+03-09 02:08:52.756     1     1 I auditd  : type=1107 audit(0.0:5): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc:  denied  { set } for property=ro.sf.blurs_are_expensive pid=1 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+03-09 02:08:52.824     1     1 I auditd  : type=1107 audit(0.0:6): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc:  denied  { read } for property=vts.native_server.on pid=0 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:vts_status_prop:s0 tclass=file permissive=0'
+03-09 02:08:52.824     1     1 I auditd  : type=1107 audit(0.0:7): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc:  denied  { read } for property=vts.native_server.on pid=0 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:vts_status_prop:s0 tclass=file permissive=0'
+03-09 02:08:52.824     1     1 I auditd  : type=1107 audit(0.0:8): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc:  denied  { read } for property=vts.native_server.on pid=0 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:vts_status_prop:s0 tclass=file permissive=0'
+03-09 02:08:52.824     1     1 I auditd  : type=1107 audit(0.0:9): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc:  denied  { read } for property=vts.native_server.on pid=0 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:vts_status_prop:s0 tclass=file permissive=0'
+03-09 02:08:54.713   546   559 I auditd  : SELinux: Loaded keystore2 context from:
+03-09 02:08:54.714   546   559 I auditd  : 		/system/etc/selinux/plat_keystore2_key_contexts
+03-09 02:08:56.380   427   427 I auditd  : type=1400 audit(0.0:10): avc:  denied  { write } for  comm="init" name="vendor_de" dev="dm-36" ino=137 scontext=u:r:vendor_init:s0 tcontext=u:object_r:vendor_userdir_file:s0 tclass=dir permissive=0
+03-09 02:08:56.544   427   427 I auditd  : type=1400 audit(0.0:11): avc:  denied  { write } for  comm="init" name="vendor_de" dev="dm-36" ino=137 scontext=u:r:vendor_init:s0 tcontext=u:object_r:vendor_userdir_file:s0 tclass=dir permissive=0
+03-09 02:08:57.000   720   720 I auditd  : type=1400 audit(0.0:12): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:57.000   720   720 I auditd  : type=1400 audit(0.0:13): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:57.008   720   720 I auditd  : type=1400 audit(0.0:14): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:57.012   720   720 I auditd  : type=1400 audit(0.0:15): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:57.020   720   720 I auditd  : type=1400 audit(0.0:16): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:57.020   720   720 I auditd  : type=1400 audit(0.0:17): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:57.052   740   740 I auditd  : type=1400 audit(0.0:18): avc:  denied  { search } for  comm="vendor.qti.hard" name="soc0" dev="sysfs" ino=25468 scontext=u:r:hal_vibrator_default:s0 tcontext=u:object_r:sysfs_soc:s0 tclass=dir permissive=0
+03-09 02:08:57.244   743   743 I auditd  : type=1400 audit(0.0:19): avc:  denied  { read } for  comm="audioserver" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=2890 scontext=u:r:audioserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+03-09 02:08:57.262   700   700 I boot_progress_start: 7389
+03-09 02:08:57.392     1     1 I auditd  : type=1107 audit(0.0:20): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc:  denied  { set } for property=ro.telephony.sim.count pid=427 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+03-09 02:08:57.744   743   743 I auditd  : type=1400 audit(0.0:21): avc:  denied  { read } for  comm="audioserver" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=2890 scontext=u:r:audioserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+03-09 02:08:57.824   921   921 I auditd  : type=1400 audit(0.0:22): avc:  denied  { read } for  comm="android.hardwar" name="u:object_r:default_prop:s0" dev="tmpfs" ino=2604 scontext=u:r:mediacodec:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+03-09 02:08:57.828   743   743 I auditd  : type=1400 audit(0.0:23): avc:  denied  { read } for  comm="audioserver" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=2890 scontext=u:r:audioserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+03-09 02:08:58.314   492   492 I auditd  : avc:  denied  { find } for pid=899 uid=1000 name=vendor.mediatek.hardware.videotelephony.IVideoTelephony/default scontext=u:r:vtservice:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+03-09 02:08:58.308   899   899 I auditd  : type=1400 audit(0.0:24): avc:  denied  { read } for  comm="vtservice" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=2890 scontext=u:r:vtservice:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+03-09 02:08:58.568   720   720 I auditd  : type=1400 audit(0.0:25): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:58.568   720   720 I auditd  : type=1400 audit(0.0:26): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:58.572   720   720 I auditd  : type=1400 audit(0.0:27): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:58.572   720   720 I auditd  : type=1400 audit(0.0:28): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:58.576   720   720 I auditd  : type=1400 audit(0.0:29): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:58.576   720   720 I auditd  : type=1400 audit(0.0:30): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:58.580   720   720 I auditd  : type=1400 audit(0.0:31): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:58.580   720   720 I auditd  : type=1400 audit(0.0:32): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:58.646   700   700 I snet_event_log: [200284993,-1,]
+03-09 02:08:58.690   701   701 I snet_event_log: [200284993,-1,]
+03-09 02:08:58.964   924   924 I auditd  : type=1400 audit(0.0:33): avc:  denied  { read } for  comm="camerahalserver" name="u:object_r:default_prop:s0" dev="tmpfs" ino=2604 scontext=u:r:mtk_hal_camera:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+03-09 02:08:58.964   924   924 I auditd  : type=1400 audit(0.0:34): avc:  denied  { read } for  comm="camerahalserver" name="u:object_r:default_prop:s0" dev="tmpfs" ino=2604 scontext=u:r:mtk_hal_camera:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+03-09 02:08:58.964   924   924 I auditd  : type=1400 audit(0.0:35): avc:  denied  { read } for  comm="camerahalserver" name="u:object_r:default_prop:s0" dev="tmpfs" ino=2604 scontext=u:r:mtk_hal_camera:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+03-09 02:08:58.964   924   924 I auditd  : type=1400 audit(0.0:36): avc:  denied  { read } for  comm="camerahalserver" name="u:object_r:default_prop:s0" dev="tmpfs" ino=2604 scontext=u:r:mtk_hal_camera:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+03-09 02:08:59.124   720   720 I auditd  : type=1400 audit(0.0:37): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:59.124   720   720 I auditd  : type=1400 audit(0.0:38): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:59.128   720   720 I auditd  : type=1400 audit(0.0:39): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:59.128   720   720 I auditd  : type=1400 audit(0.0:40): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:59.205   700   700 I boot_progress_preload_start: 9331
+03-09 02:08:59.376   720   720 I auditd  : type=1400 audit(0.0:41): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:59.376   720   720 I auditd  : type=1400 audit(0.0:42): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:59.380   720   720 I auditd  : type=1400 audit(0.0:43): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:59.380   720   720 I auditd  : type=1400 audit(0.0:44): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:08:59.740  1373  1373 I auditd  : type=1400 audit(0.0:45): avc:  denied  { read } for  comm="mtkfusionrild" name="u:object_r:default_prop:s0" dev="tmpfs" ino=2604 scontext=u:r:rild:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+03-09 02:08:59.740     1     1 I auditd  : type=1107 audit(0.0:46): uid=0 auid=4294967295 ses=4294967295 subj=u:r:init:s0 msg='avc:  denied  { set } for property=ro.telephony.sim.count pid=427 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+03-09 02:09:02.644   720   720 I auditd  : type=1400 audit(0.0:47): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:02.644   720   720 I auditd  : type=1400 audit(0.0:48): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:04.145   700   700 I boot_progress_preload_end: 14271
+03-09 02:09:05.738  1774  1774 I system_server_start: [1,15862,15862]
+03-09 02:09:05.740  1774  1774 I boot_progress_system_run: 15866
+03-09 02:09:06.864   545   545 I auditd  : type=1400 audit(0.0:49): avc:  denied  { read } for  comm="binder:545_3" name="wakeup164" dev="sysfs" ino=49385 scontext=u:r:system_suspend:s0 tcontext=u:object_r:vendor_sysfs_fingerprint:s0 tclass=dir permissive=0
+03-09 02:09:06.884   545   545 I auditd  : type=1400 audit(0.0:50): avc:  denied  { read } for  comm="binder:545_3" name="wakeup142" dev="sysfs" ino=45921 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+03-09 02:09:06.888   545   545 I auditd  : type=1400 audit(0.0:51): avc:  denied  { read } for  comm="binder:545_3" name="wakeup140" dev="sysfs" ino=45831 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+03-09 02:09:06.892   545   545 I auditd  : type=1400 audit(0.0:52): avc:  denied  { read } for  comm="binder:545_3" name="wakeup139" dev="sysfs" ino=45806 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+03-09 02:09:06.908   545   545 I auditd  : type=1400 audit(0.0:53): avc:  denied  { read } for  comm="binder:545_3" name="wakeup141" dev="sysfs" ino=45896 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+03-09 02:09:06.958  1774  1804 I commit_sys_config_file: [batterystats,6]
+03-09 02:09:06.962  1774  1804 I commit_sys_config_file: [batterystats,3]
+03-09 02:09:06.978  1774  1774 I rescue_note: [0,1,17103]
+03-09 02:09:07.085  1774  1774 I boot_progress_pms_start: 17212
+03-09 02:09:07.369  1774  1774 I service_manager_stats: [100,37,17495]
+03-09 02:09:07.628  1774  1774 I boot_progress_pms_system_scan_start: 17755
+03-09 02:09:10.806  1774  1774 I boot_progress_pms_data_scan_start: 20933
+03-09 02:09:10.822  1774  1774 I boot_progress_pms_scan_end: 20949
+03-09 02:09:11.140  1774  1774 I commit_sys_config_file: [package,105]
+03-09 02:09:11.141  1774  1774 I boot_progress_pms_ready: 21267
+03-09 02:09:11.205  1774  1830 I commit_sys_config_file: [package-user-0,65]
+03-09 02:09:11.725  1774  1774 I am_uid_running: 1000
+03-09 02:09:11.734  1774  1774 I am_uid_active: 1000
+03-09 02:09:11.905  1774  1774 I commit_sys_config_file: [overlays,4]
+03-09 02:09:12.032   720   720 I auditd  : type=1400 audit(0.0:54): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:12.032   720   720 I auditd  : type=1400 audit(0.0:55): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:12.036   720   720 I auditd  : type=1400 audit(0.0:56): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:12.036   720   720 I auditd  : type=1400 audit(0.0:57): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:12.043  1774  1860 I battery_status: [2,2,1,2,Li-poly]
+03-09 02:09:12.045  1774  1860 I battery_level: [46,3868,386]
+03-09 02:09:12.380   720   720 I auditd  : type=1400 audit(0.0:58): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:12.380   720   720 I auditd  : type=1400 audit(0.0:59): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:12.384   720   720 I auditd  : type=1400 audit(0.0:60): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:12.384   720   720 I auditd  : type=1400 audit(0.0:61): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:12.401  1774  1774 I service_manager_stats: [221,115,5033]
+03-09 02:09:13.139  1774  1774 I wm_task_created: 1
+03-09 02:09:17.522  1774  1833 I commit_sys_config_file: [package,159]
+03-09 02:09:17.528  1774  1830 I commit_sys_config_file: [package-user-0,6]
+03-09 02:09:28.760   720   720 I auditd  : type=1400 audit(0.0:62): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:28.760   720   720 I auditd  : type=1400 audit(0.0:63): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:28.768   720   720 I auditd  : type=1400 audit(0.0:64): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:28.768   720   720 I auditd  : type=1400 audit(0.0:65): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:53.336   720   720 I auditd  : type=1400 audit(0.0:66): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:53.336   720   720 I auditd  : type=1400 audit(0.0:67): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:53.344   720   720 I auditd  : type=1400 audit(0.0:68): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:53.344   720   720 I auditd  : type=1400 audit(0.0:69): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:59.132   720   720 I auditd  : type=1400 audit(0.0:70): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:59.132   720   720 I auditd  : type=1400 audit(0.0:71): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:59.140   720   720 I auditd  : type=1400 audit(0.0:72): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:09:59.140   720   720 I auditd  : type=1400 audit(0.0:73): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:10:26.100   720   720 I auditd  : type=1400 audit(0.0:74): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:10:26.100   720   720 I auditd  : type=1400 audit(0.0:75): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:10:26.104   720   720 I auditd  : type=1400 audit(0.0:76): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:10:26.104   720   720 I auditd  : type=1400 audit(0.0:77): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:10:44.072  1774  1802 I watchdog: Blocked in handler on  on main thread (main) for 67s, Blocked in handler on  on ui thread (android.ui) for 67s
+03-09 02:10:51.578  2586  2586 I boot_progress_start: 121704
+03-09 02:10:51.716  2587  2587 I auditd  : type=1400 audit(0.0:78): avc:  denied  { read } for  comm="audioserver" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=2890 scontext=u:r:audioserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+03-09 02:10:51.720  2587  2587 I auditd  : type=1400 audit(0.0:79): avc:  denied  { read } for  comm="audioserver" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=2890 scontext=u:r:audioserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+03-09 02:10:51.744  2587  2587 I auditd  : type=1400 audit(0.0:80): avc:  denied  { read } for  comm="audioserver" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=2890 scontext=u:r:audioserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+03-09 02:10:51.939  2586  2586 I snet_event_log: [200284993,-1,]
+03-09 02:10:52.164  2585  2585 I snet_event_log: [200284993,-1,]
+03-09 02:10:52.169  2586  2586 I boot_progress_preload_start: 122295
+03-09 02:10:55.348  2586  2586 I boot_progress_preload_end: 125474
+03-09 02:10:56.807  2741  2741 I system_server_start: [2,126931,126931]
+03-09 02:10:56.808  2741  2741 I boot_progress_system_run: 126935
+03-09 02:10:57.488   545   545 I auditd  : type=1400 audit(0.0:81): avc:  denied  { read } for  comm="binder:545_E" name="wakeup164" dev="sysfs" ino=49385 scontext=u:r:system_suspend:s0 tcontext=u:object_r:vendor_sysfs_fingerprint:s0 tclass=dir permissive=0
+03-09 02:10:57.500   545   545 I auditd  : type=1400 audit(0.0:82): avc:  denied  { read } for  comm="binder:545_E" name="wakeup142" dev="sysfs" ino=45921 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+03-09 02:10:57.504   545   545 I auditd  : type=1400 audit(0.0:83): avc:  denied  { read } for  comm="binder:545_E" name="wakeup140" dev="sysfs" ino=45831 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+03-09 02:10:57.512   545   545 I auditd  : type=1400 audit(0.0:84): avc:  denied  { read } for  comm="binder:545_E" name="wakeup139" dev="sysfs" ino=45806 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+03-09 02:10:57.524   545   545 I auditd  : type=1400 audit(0.0:85): avc:  denied  { read } for  comm="binder:545_E" name="wakeup141" dev="sysfs" ino=45896 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+03-09 02:10:57.569  2741  2773 I commit_sys_config_file: [batterystats,7]
+03-09 02:10:57.573  2741  2773 I commit_sys_config_file: [batterystats,4]
+03-09 02:10:57.585  2741  2741 I rescue_note: [0,2,127710]
+03-09 02:10:57.693  2741  2741 I boot_progress_pms_start: 127820
+03-09 02:10:57.974  2741  2741 I service_manager_stats: [100,48,128100]
+03-09 02:10:58.203  2741  2741 I boot_progress_pms_system_scan_start: 128329
+03-09 02:10:58.872   720   720 I auditd  : type=1400 audit(0.0:86): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:10:58.872   720   720 I auditd  : type=1400 audit(0.0:87): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:10:58.876   720   720 I auditd  : type=1400 audit(0.0:88): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:10:58.876   720   720 I auditd  : type=1400 audit(0.0:89): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:10:59.128   720   720 I auditd  : type=1400 audit(0.0:90): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:10:59.128   720   720 I auditd  : type=1400 audit(0.0:91): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:10:59.132   720   720 I auditd  : type=1400 audit(0.0:92): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:10:59.132   720   720 I auditd  : type=1400 audit(0.0:93): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:11:00.317  2741  2741 I boot_progress_pms_data_scan_start: 130443
+03-09 02:11:00.331  2741  2741 I boot_progress_pms_scan_end: 130457
+03-09 02:11:00.633  2741  2741 I commit_sys_config_file: [package,88]
+03-09 02:11:00.633  2741  2741 I boot_progress_pms_ready: 130759
+03-09 02:11:00.700  2741  2794 I commit_sys_config_file: [package-user-0,68]
+03-09 02:11:01.216  2741  2741 I am_uid_running: 1000
+03-09 02:11:01.230  2741  2741 I am_uid_active: 1000
+03-09 02:11:01.388  2741  2741 I commit_sys_config_file: [overlays,8]
+03-09 02:11:01.519  2741  2763 I pm_snapshot_rebuild: [74,430]
+03-09 02:11:01.548   720   720 I auditd  : type=1400 audit(0.0:94): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:11:01.548   720   720 I auditd  : type=1400 audit(0.0:95): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:11:01.552   720   720 I auditd  : type=1400 audit(0.0:96): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:11:01.552   720   720 I auditd  : type=1400 audit(0.0:97): avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+03-09 02:11:01.560  2741  2756 I battery_status: [2,2,1,2,Li-poly]
+03-09 02:11:01.561  2741  2756 I battery_level: [46,3881,385]
+03-09 02:11:02.749  2741  2741 I wm_task_created: 1
+03-09 02:11:02.853  2741  2766 I sysui_multi_action: [757,1594,758,4,759,0,806,NULL]
+03-09 02:11:03.101  2741  2741 I service_manager_stats: [243,126,5127]
+03-09 02:11:03.290  2741  2741 I configuration_changed: 536894968
+03-09 02:11:03.310  2741  2741 I sysui_multi_action: [757,1659,758,4,759,1,1660,0]
+03-09 02:11:03.336  2741  2741 I configuration_changed: 8
+03-09 02:11:03.724  2741  2741 I device_idle: [0,boot]
+03-09 02:11:03.724  2741  2741 I device_idle_light: [0,boot]
+03-09 02:11:05.794  2741  2919 I storage_state: [41217664-9172-527a-b3d5-edabb50a7d69,0,0,112429940736,114057773056]
+03-09 02:11:05.942  2741  2845 I commit_sys_config_file: [settings-2-0,25]
+03-09 02:11:05.973  2741  2845 I commit_sys_config_file: [settings-0-0,28]
+03-09 02:11:06.004  2741  2765 I commit_sys_config_file: [notification-policy,32]
+03-09 02:11:06.221  2741  2774 I am_wtf  : [0,2741,system_server,-1,SystemServiceRegistry,No service published for: usb]
+03-09 02:11:06.224  2741  2925 I stream_devices_changed: [4,0,2]
+03-09 02:11:06.225  2741  2925 I stream_devices_changed: [6,0,1]
+03-09 02:11:06.226  2741  2774 I am_wtf  : [0,2741,system_server,-1,SystemServiceRegistry,Manager wrapper not available: usb]
+03-09 02:11:06.227  2741  2925 I stream_devices_changed: [3,0,2]
+03-09 02:11:06.230  2741  2925 I stream_devices_changed: [5,0,2]
+03-09 02:11:06.231  2741  2925 I stream_devices_changed: [2,0,2]
+03-09 02:11:06.232  2741  2925 I stream_devices_changed: [0,0,1]
+03-09 02:11:06.280  2741  2845 I commit_sys_config_file: [settings-1-0,8]
+03-09 02:11:06.468  2741  2774 I am_wtf  : [0,2741,system_server,-1,SystemServiceRegistry,No service published for: face]
+03-09 02:11:06.469  2741  2774 I am_wtf  : [0,2741,system_server,-1,SystemServiceRegistry,Manager wrapper not available: face]
+03-09 02:11:06.482  2741  2845 I commit_sys_config_file: [settings-2-0,22]
+03-09 02:11:06.974  2741  2741 I configuration_changed: 512
+03-09 02:11:07.128  2741  2741 I configuration_changed: 32
+03-09 02:11:07.166  2741  2741 I commit_sys_config_file: [package-session,2]
+03-09 02:11:08.084  2741  2797 I commit_sys_config_file: [package,160]
+03-09 02:11:08.089  2741  2794 I commit_sys_config_file: [package-user-0,5]
+03-09 02:11:08.156  2741  2949 I service_manager_stats: [164,125,5055]
+03-09 02:11:08.170  2741  2741 I boot_progress_ams_ready: 138297
+03-09 02:11:08.180  2741  2741 I configuration_changed: 268435456
+03-09 02:11:08.216  2741  2741 I thermal_changed: [NPU,9,50.193001,0,0]
+03-09 02:11:08.216  2741  2741 I thermal_changed: [mtktsbtsmdpa,5,40.949001,0,0]
+03-09 02:11:08.216  2741  2741 I thermal_changed: [CPU,0,50.193001,0,0]
+03-09 02:11:08.217  2741  2741 I thermal_changed: [mtktsAP,3,41.952003,0,0]
+03-09 02:11:08.217  2741  2741 I thermal_changed: [mtktsbattery,2,38.500000,0,0]
+03-09 02:11:08.217  2741  2741 I thermal_changed: [GPU,1,50.193001,0,0]
+03-09 02:11:08.275  2741  2839 I commit_sys_config_file: [log-files,4]
+03-09 02:11:08.297  2741  2839 I commit_sys_config_file: [log-files,26]
+03-09 02:11:08.404  2741  2741 I am_uid_running: 10145
+03-09 02:11:08.424  2741  2775 I am_proc_start: [0,2977,10145,com.android.systemui,service,{com.android.systemui/com.android.systemui.wallpapers.ImageWallpaper}]
+03-09 02:11:08.456  2741  2756 I am_proc_bound: [0,2977,com.android.systemui]
+03-09 02:11:08.484  2741  2756 I am_uid_active: 10145
+03-09 02:11:08.731  2741  2863 I am_uid_running: 1037
+03-09 02:11:08.763  2741  2895 I commit_sys_config_file: [net-policy,3]
+03-09 02:11:09.308  2741  2755 I wm_task_created: 2
+03-09 02:11:09.322  2741  2755 I wm_task_created: 3
+03-09 02:11:09.334  2741  2755 I wm_task_created: 4
+03-09 02:11:09.345  2741  2893 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,1709930469345]
+03-09 02:11:09.346  2741  2893 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,1709930469345]
+03-09 02:11:09.367  2741  2893 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,1709930469367]
+03-09 02:11:09.368  2741  2893 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,1709930469367]
+03-09 02:11:09.835  2741  2756 I wm_task_removed: [3,3,0,reParentTask:sanitizeAndApplyHierarchyOp]
+03-09 02:11:09.837  2741  2756 I wm_task_moved: [3,2,0,1,2147483647]
+03-09 02:11:09.838  2741  2756 I wm_task_removed: [4,4,0,reParentTask:sanitizeAndApplyHierarchyOp]
+03-09 02:11:09.839  2741  2756 I wm_task_moved: [4,2,0,1,2147483647]
+03-09 02:11:09.897  2741  2775 I am_proc_start: [0,3020,1037,WebViewLoader-armeabi-v7a,,]
+03-09 02:11:09.935  2741  2775 I am_proc_start: [0,3035,1037,WebViewLoader-arm64-v8a,,]
+03-09 02:11:09.947  2741  2756 I am_proc_bound: [0,3020,WebViewLoader-armeabi-v7a]
+03-09 02:11:09.949  2741  2756 I am_uid_active: 1037
+03-09 02:11:09.955  2741  2845 I commit_sys_config_file: [settings-0-0,42]
+03-09 02:11:09.997  2741  2755 I am_proc_bound: [0,3035,WebViewLoader-arm64-v8a]
+03-09 02:11:10.066  2741  2755 I am_proc_died: [0,3020,WebViewLoader-armeabi-v7a,-700,0]
+03-09 02:11:10.069  2741  2755 I am_low_memory: 3
+03-09 02:11:10.155  2741  3080 I am_proc_died: [0,3035,WebViewLoader-arm64-v8a,-700,0]
+03-09 02:11:10.156  2741  3080 I am_uid_stopped: 1037
+03-09 02:11:10.159  2741  3080 I am_low_memory: 2
+03-09 02:11:10.173  2741  2741 I am_uid_running: 1073
+03-09 02:11:10.183  2741  2773 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,1709930470182]
+03-09 02:11:10.183  2741  2773 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,1709930470182]
+03-09 02:11:10.195  2741  2741 I configuration_changed: 16384
+03-09 02:11:10.200  2741  2775 I am_proc_start: [0,3084,1073,com.android.networkstack.process,service,{com.android.networkstack/com.android.server.NetworkStackService}]
+03-09 02:11:10.228  2741  2773 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,1709930470227]
+03-09 02:11:10.229  2741  2773 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,1709930470227]
+03-09 02:11:10.239  2741  3082 I am_proc_bound: [0,3084,com.android.networkstack.process]
+03-09 02:11:10.242  2741  2741 I ssm_user_starting: 0
+03-09 02:11:10.254  2741  2773 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,1709930470253]
+03-09 02:11:10.255  2741  3082 I am_uid_active: 1073
+03-09 02:11:10.255  2741  2773 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,1709930470253]
+03-09 02:11:10.296  2741  2773 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,1709930470295]
+03-09 02:11:10.297  2741  2773 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,1709930470295]
+03-09 02:11:10.320  2741  2773 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,1709930470320]
+03-09 02:11:10.322  2741  2773 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,1709930470320]
+03-09 02:11:10.342  2741  2773 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,1709930470341]
+03-09 02:11:10.343  2741  2773 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,1709930470341]
+03-09 02:11:10.372  2741  2741 I commit_sys_config_file: [overlays,8991]
+03-09 02:11:10.634  2741  2741 I um_user_visibility_changed: [0,1]
+03-09 02:11:10.643  2741  2741 I am_uid_running: 1068
+03-09 02:11:10.648  2741  2741 I am_uid_running: 1001
+03-09 02:11:10.751  2741  2741 I wm_task_created: 5
+03-09 02:11:10.753  2741  2741 I wm_task_moved: [5,1,0,1,2147483647]
+03-09 02:11:10.758  2741  2741 I wm_task_moved: [1,1,0,1,1]
+03-09 02:11:10.759  2741  2741 I wm_create_task: [0,5,1,0]
+03-09 02:11:10.759  2741  2741 I wm_create_activity: [0,238527305,5,com.android.settings/.FallbackHome,android.intent.action.MAIN,NULL,NULL,276824320]
+03-09 02:11:10.761  2741  2741 I wm_task_moved: [1,1,0,1,1]
+03-09 02:11:10.761  2741  2741 I wm_task_moved: [5,1,0,1,2147483647]
+03-09 02:11:10.761  2741  2741 I wm_task_to_front: [0,5,0]
+03-09 02:11:10.773  2741  2741 I uc_send_user_broadcast: [0,android.intent.action.USER_STARTED]
+03-09 02:11:10.775  2741  2741 I uc_send_user_broadcast: [0,android.intent.action.USER_STARTING]
+03-09 02:11:10.779  2741  2741 I uc_send_user_broadcast: [0,android.intent.action.USER_FOREGROUND]
+03-09 02:11:10.780  2741  2741 I uc_send_user_broadcast: [0,android.intent.action.USER_SWITCHED]
+03-09 02:11:10.786  2741  2775 I am_proc_start: [0,3109,1068,com.android.se,added application,com.android.se]
+03-09 02:11:10.790  2741  2755 I am_proc_bound: [0,3109,com.android.se]
+03-09 02:11:10.797  2741  2755 I am_uid_active: 1068
+03-09 02:11:11.084  2741  2775 I am_proc_start: [0,3125,1001,com.android.phone,added application,com.android.phone]
+03-09 02:11:11.116  2741  2775 I am_proc_start: [0,3146,1000,com.android.settings,top-activity,{com.android.settings/com.android.settings.FallbackHome}]
+03-09 02:11:11.138  2741  2756 I am_proc_bound: [0,3125,com.android.phone]
+03-09 02:11:11.147  2741  2756 I am_uid_active: 1001
+03-09 02:11:11.198  2741  2741 I notification_cancel_all: [1000,2741,android,0,0,0,20,NULL]
+03-09 02:11:11.199  2741  2741 I notification_cancel_all: [1000,2741,android,0,0,0,20,NULL]
+03-09 02:11:11.199  2741  2741 I notification_cancel_all: [1000,2741,android,0,0,0,20,NULL]
+03-09 02:11:11.202  2741  3144 I am_proc_bound: [0,3146,com.android.settings]
+03-09 02:11:11.256  2741  2741 I am_uid_running: 10178
+03-09 02:11:11.288  2741  2775 I am_proc_start: [0,3170,10178,android.ext.services,service,{android.ext.services/android.ext.services.autofill.InlineSuggestionRenderServiceImpl}]
+03-09 02:11:11.306  2741  2756 I am_proc_bound: [0,3170,android.ext.services]
+03-09 02:11:11.452  2741  3082 I wm_restart_activity: [0,238527305,5,com.android.settings/.FallbackHome]
+03-09 02:11:11.456  2741  3082 I wm_set_resumed_activity: [0,com.android.settings/.FallbackHome,minimalResumeActivityLocked - onActivityStateChanged]
+03-09 02:11:11.459  2741  3082 I am_uid_active: 10178
+03-09 02:11:11.652  3084  3084 I auditd  : type=1400 audit(0.0:98): avc:  granted  { read } for  comm="rkstack.process" name="psched" dev="proc" ino=4026532247 scontext=u:r:network_stack:s0 tcontext=u:object_r:proc_net:s0 tclass=file
+03-09 02:11:11.652  3084  3084 I auditd  : type=1400 audit(0.0:99): avc:  granted  { read open } for  comm="rkstack.process" path="/proc/3084/net/psched" dev="proc" ino=4026532247 scontext=u:r:network_stack:s0 tcontext=u:object_r:proc_net:s0 tclass=file
+03-09 02:11:11.652  3084  3084 I auditd  : type=1400 audit(0.0:100): avc:  granted  { getattr } for  comm="rkstack.process" path="/proc/3084/net/psched" dev="proc" ino=4026532247 scontext=u:r:network_stack:s0 tcontext=u:object_r:proc_net:s0 tclass=file
+03-09 02:11:11.949  3146  3146 I wm_on_create_called: [238527305,com.android.settings.FallbackHome,performCreate,23]
+03-09 02:11:11.956  3146  3146 I wm_on_start_called: [238527305,com.android.settings.FallbackHome,handleStartActivity,0]
+03-09 02:11:11.960  3146  3146 I wm_on_resume_called: [238527305,com.android.settings.FallbackHome,RESUME_ACTIVITY,0]
+03-09 02:11:12.019  2741  2741 I volume_changed: [3,2,2,15,AS.AudioService]
+03-09 02:11:12.020  2741  2741 I volume_changed: [3,2,2,15,AS.AudioService]
+03-09 02:11:12.020  3146  3146 I wm_on_top_resumed_gained_called: [238527305,com.android.settings.FallbackHome,topStateChangedWhenResumed]
+03-09 02:11:12.026  2741  2741 I volume_changed: [3,2,2,15,AS.AudioService]
+03-09 02:11:12.027  2741  2741 I volume_changed: [3,2,2,15,AS.AudioService]
+03-09 02:11:12.047  2741  2821 I service_manager_slow: [15,bluetooth_manager]
+03-09 02:11:12.091  2741  2741 I notification_enqueue: [1000,2741,android,32,NULL,-1,Notification(channel=USB shortcut=null contentView=null vibrate=null sound=null tick defaults=0x0 flags=0x802 color=0x00000000 vis=PUBLIC),0]
+03-09 02:11:12.112  2741  2741 I sysui_multi_action: [757,1501,758,1,793,37,794,0,795,37,796,32,806,android,857,USB,858,1,947,0,1500,0]
+03-09 02:11:12.113  2741  2741 I sysui_multi_action: [757,804,799,note_interruptive,801,0,802,1]
+03-09 02:11:12.125  2741  2893 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,1709930472124]
+03-09 02:11:12.126  2741  2893 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,1709930472124]
+03-09 02:11:12.169  2741  2767 I input_focus: [Focus request 83f8e52 com.android.settings/com.android.settings.FallbackHome,reason=UpdateInputWindows]
+03-09 02:11:12.170  2741  2774 I am_uid_running: 10168
+03-09 02:11:12.185  2741  2775 I am_proc_start: [0,3257,10168,com.android.cellbroadcastreceiver.module,broadcast,{com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver}]
+03-09 02:11:12.214  2741  3082 I am_proc_bound: [0,3257,com.android.cellbroadcastreceiver.module]
+03-09 02:11:12.278  2741  2766 I boot_progress_enable_screen: 142404
+03-09 02:11:12.287  2741  2766 I screen_toggled: 1
+03-09 02:11:12.307  2741  2763 I sysui_multi_action: [319,1634,322,1620,325,140,757,761,758,7,759,2,806,com.android.settings,871,com.android.settings.FallbackHome,905,0,945,546,1320,12,1321,1]
+03-09 02:11:12.316  2741  2763 I wm_activity_launch_time: [0,238527305,com.android.settings/.FallbackHome,1620]
+03-09 02:11:12.317  2741  3216 I am_uid_running: 10155
+03-09 02:11:12.337  2741  2775 I am_proc_start: [0,3283,10155,com.android.smspush,service,{com.android.smspush/com.android.smspush.WapPushManager}]
+03-09 02:11:12.370  2741  3216 I am_proc_bound: [0,3283,com.android.smspush]
+03-09 02:11:12.428  2741  3216 I am_uid_active: 10155
+03-09 02:11:12.553  2741  2767 I wm_wallpaper_surface: [0,1,Window{83f8e52 u0 com.android.settings/com.android.settings.FallbackHome}]
+03-09 02:11:12.588  2741  2821 I am_uid_running: 10148
+03-09 02:11:12.609  2741  2775 I am_proc_start: [0,3313,10148,com.android.launcher3,service,{com.android.launcher3/com.android.quickstep.TouchInteractionService}]
+03-09 02:11:12.627  2741  2821 I am_proc_bound: [0,3313,com.android.launcher3]
+03-09 02:11:13.009  2741  2756 I am_uid_active: 10148
+03-09 02:11:13.418  2741  2862 I service_manager_stats: [284,326,5262]
+03-09 02:11:13.792  3125  3142 I service_manager_slow: [12,iphonesubinfo]
+03-09 02:11:14.398  2977  3407 I sysui_multi_action: [757,213,758,4,759,-1]

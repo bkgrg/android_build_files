@@ -1,6 +1,6 @@
 ### Common Terminal Commands##################################################
 
-#1. Swapfile 24GB & swappiness=100 & cache_pressure=50
+#1. Swapfile 24GB & swappiness=100 & cache_pressure=10
 sudo su
 swapoff -a
 swapoff -a -v
@@ -9,9 +9,9 @@ dd if=/dev/zero of=/swapfile bs=1k count=25165824
 mkswap /swapfile && chmod 600 /swapfile && swapon /swapfile
 echo "/swapfile swap swap auto 0 0" | tee -a /etc/fstab
 sysctl -w vm.swappiness=100
-sysctl -w vm.vfs_cache_pressure=50
+sysctl -w vm.vfs_cache_pressure=10
 echo vm.swappiness=100 | tee -a /etc/sysctl.conf
-echo vm.vfs_cache_pressure=50 | tee -a /etc/sysctl.conf
+echo vm.vfs_cache_pressure=10 | tee -a /etc/sysctl.conf
 
 #2. Updates & Cleanup
 sudo ubuntu-drivers install
