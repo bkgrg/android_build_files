@@ -1,0 +1,375 @@
+avc:  denied  { set } for property=ro.mtk_cam_stereo_camera_support pid=1 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+avc:  denied  { set } for property=ro.sf.blurs_are_expensive pid=1 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+avc:  denied  { read } for property=vts.native_server.on pid=0 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:vts_status_prop:s0 tclass=file permissive=0'
+avc:  denied  { read } for property=vts.native_server.on pid=0 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:vts_status_prop:s0 tclass=file permissive=0'
+avc:  denied  { read } for property=vts.native_server.on pid=0 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:vts_status_prop:s0 tclass=file permissive=0'
+avc:  denied  { read } for property=vts.native_server.on pid=0 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:vts_status_prop:s0 tclass=file permissive=0'
+avc:  denied  { write } for  comm="init" name="vendor_de" dev="dm-36" ino=137 scontext=u:r:vendor_init:s0 tcontext=u:object_r:vendor_userdir_file:s0 tclass=dir permissive=0
+avc:  denied  { write } for  comm="init" name="vendor_de" dev="dm-36" ino=137 scontext=u:r:vendor_init:s0 tcontext=u:object_r:vendor_userdir_file:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { search } for  comm="vendor.qti.hard" name="soc0" dev="sysfs" ino=25468 scontext=u:r:hal_vibrator_default:s0 tcontext=u:object_r:sysfs_soc:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="audioserver" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=9015 scontext=u:r:audioserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+avc:  denied  { set } for property=ro.telephony.sim.count pid=433 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+avc:  denied  { read } for  comm="audioserver" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=9015 scontext=u:r:audioserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="u:object_r:default_prop:s0" dev="tmpfs" ino=8729 scontext=u:r:mediacodec:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="audioserver" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=9015 scontext=u:r:audioserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="vtservice" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=9015 scontext=u:r:vtservice:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+avc:  denied  { find } for pid=908 uid=1000 name=vendor.mediatek.hardware.videotelephony.IVideoTelephony/default scontext=u:r:vtservice:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+avc:  denied  { read } for  comm="camerahalserver" name="u:object_r:default_prop:s0" dev="tmpfs" ino=8729 scontext=u:r:mtk_hal_camera:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="camerahalserver" name="u:object_r:default_prop:s0" dev="tmpfs" ino=8729 scontext=u:r:mtk_hal_camera:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="camerahalserver" name="u:object_r:default_prop:s0" dev="tmpfs" ino=8729 scontext=u:r:mtk_hal_camera:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="camerahalserver" name="u:object_r:default_prop:s0" dev="tmpfs" ino=8729 scontext=u:r:mtk_hal_camera:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { set } for property=ro.telephony.sim.count pid=433 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+avc:  denied  { set } for property=ro.telephony.sim.count pid=433 uid=0 gid=0 scontext=u:r:vendor_init:s0 tcontext=u:object_r:default_prop:s0 tclass=property_service permissive=0'
+avc:  denied  { read } for  comm="mtkfusionrild" name="u:object_r:default_prop:s0" dev="tmpfs" ino=8729 scontext=u:r:rild:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="u:object_r:default_prop:s0" dev="tmpfs" ino=8729 scontext=u:r:rild:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  path="/proc/1420/cmdline" dev="proc" ino=23660 scontext=u:r:netutils_wrapper:s0 tcontext=u:r:rild:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="binder:546_6" name="wakeup164" dev="sysfs" ino=49385 scontext=u:r:system_suspend:s0 tcontext=u:object_r:vendor_sysfs_fingerprint:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup164" dev="sysfs" ino=49385 scontext=u:r:system_suspend:s0 tcontext=u:object_r:vendor_sysfs_fingerprint:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_6" name="wakeup142" dev="sysfs" ino=45921 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup142" dev="sysfs" ino=45921 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_6" name="wakeup140" dev="sysfs" ino=45831 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup140" dev="sysfs" ino=45831 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_6" name="wakeup139" dev="sysfs" ino=45806 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup139" dev="sysfs" ino=45806 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_6" name="wakeup141" dev="sysfs" ino=45896 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup141" dev="sysfs" ino=45896 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="audioserver" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=9015 scontext=u:r:audioserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=9015 scontext=u:r:audioserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="audioserver" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=9015 scontext=u:r:audioserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=9015 scontext=u:r:audioserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="audioserver" name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=9015 scontext=u:r:audioserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="u:object_r:vendor_default_prop:s0" dev="tmpfs" ino=9015 scontext=u:r:audioserver:s0 tcontext=u:object_r:vendor_default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="binder:546_E" name="wakeup164" dev="sysfs" ino=49385 scontext=u:r:system_suspend:s0 tcontext=u:object_r:vendor_sysfs_fingerprint:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup164" dev="sysfs" ino=49385 scontext=u:r:system_suspend:s0 tcontext=u:object_r:vendor_sysfs_fingerprint:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_E" name="wakeup142" dev="sysfs" ino=45921 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup142" dev="sysfs" ino=45921 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_E" name="wakeup140" dev="sysfs" ino=45831 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup140" dev="sysfs" ino=45831 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_E" name="wakeup139" dev="sysfs" ino=45806 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup139" dev="sysfs" ino=45806 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_E" name="wakeup141" dev="sysfs" ino=45896 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup141" dev="sysfs" ino=45896 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="binder:505_2" name="/" dev="sdc14" ino=2 scontext=u:r:vold:s0 tcontext=u:object_r:persist_data_file:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="/" dev="sdc14" ino=2 scontext=u:r:vold:s0 tcontext=u:object_r:persist_data_file:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="init" name="u:object_r:default_prop:s0" dev="tmpfs" ino=8729 scontext=u:r:vendor_init:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="u:object_r:default_prop:s0" dev="tmpfs" ino=8729 scontext=u:r:vendor_init:s0 tcontext=u:object_r:default_prop:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { dac_read_search } for  comm="mtd_isee@1.3" capability=2  scontext=u:r:hal_mtdservice_default:s0 tcontext=u:r:hal_mtdservice_default:s0 tclass=capability permissive=0
+avc:  denied  { dac_read_search } for  capability=2  scontext=u:r:hal_mtdservice_default:s0 tcontext=u:r:hal_mtdservice_default:s0 tclass=capability permissive=0
+avc:  denied  { dac_override } for  comm="mtd_isee@1.3" capability=1  scontext=u:r:hal_mtdservice_default:s0 tcontext=u:r:hal_mtdservice_default:s0 tclass=capability permissive=0
+avc:  denied  { dac_override } for  capability=1  scontext=u:r:hal_mtdservice_default:s0 tcontext=u:r:hal_mtdservice_default:s0 tclass=capability permissive=0
+avc:  denied  { dac_read_search } for  comm="mtd_isee@1.3" capability=2  scontext=u:r:hal_mtdservice_default:s0 tcontext=u:r:hal_mtdservice_default:s0 tclass=capability permissive=0
+avc:  denied  { dac_read_search } for  capability=2  scontext=u:r:hal_mtdservice_default:s0 tcontext=u:r:hal_mtdservice_default:s0 tclass=capability permissive=0
+avc:  denied  { dac_override } for  comm="mtd_isee@1.3" capability=1  scontext=u:r:hal_mtdservice_default:s0 tcontext=u:r:hal_mtdservice_default:s0 tclass=capability permissive=0
+avc:  denied  { dac_override } for  capability=1  scontext=u:r:hal_mtdservice_default:s0 tcontext=u:r:hal_mtdservice_default:s0 tclass=capability permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { search } for  comm="eageos.settings" name="thermal" dev="sysfs" ino=22051 scontext=u:r:system_app:s0 tcontext=u:object_r:sysfs_therm:s0 tclass=dir permissive=0
+avc:  denied  { search } for  name="thermal" dev="sysfs" ino=22051 scontext=u:r:system_app:s0 tcontext=u:object_r:sysfs_therm:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="binder:546_B" name="wakeup164" dev="sysfs" ino=49385 scontext=u:r:system_suspend:s0 tcontext=u:object_r:vendor_sysfs_fingerprint:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup164" dev="sysfs" ino=49385 scontext=u:r:system_suspend:s0 tcontext=u:object_r:vendor_sysfs_fingerprint:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_B" name="wakeup142" dev="sysfs" ino=45921 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup142" dev="sysfs" ino=45921 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_B" name="wakeup140" dev="sysfs" ino=45831 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup140" dev="sysfs" ino=45831 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_B" name="wakeup139" dev="sysfs" ino=45806 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup139" dev="sysfs" ino=45806 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_B" name="wakeup141" dev="sysfs" ino=45896 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup141" dev="sysfs" ino=45896 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45783 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="android.hardwar" name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  name="type" dev="sysfs" ino=45873 scontext=u:r:hal_health_default:s0 tcontext=u:object_r:sysfs:s0 tclass=file permissive=0
+avc:  denied  { read } for  comm="binder:546_D" name="wakeup164" dev="sysfs" ino=49385 scontext=u:r:system_suspend:s0 tcontext=u:object_r:vendor_sysfs_fingerprint:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup164" dev="sysfs" ino=49385 scontext=u:r:system_suspend:s0 tcontext=u:object_r:vendor_sysfs_fingerprint:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_D" name="wakeup142" dev="sysfs" ino=45921 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup142" dev="sysfs" ino=45921 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_D" name="wakeup140" dev="sysfs" ino=45831 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup140" dev="sysfs" ino=45831 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_D" name="wakeup139" dev="sysfs" ino=45806 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup139" dev="sysfs" ino=45806 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  comm="binder:546_D" name="wakeup141" dev="sysfs" ino=45896 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+avc:  denied  { read } for  name="wakeup141" dev="sysfs" ino=45896 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0

@@ -44,5 +44,10 @@ sudo apt update
 #5. Find string in a folder containing files
 grep -rlF "isolated_app" /home/bkgrg/android/lineage/
 
+#6. Find a string in all lines, remove other lines, remove all characters before the string in each line and export result
+grep "avc:  denied" /home/bkgrg/android_build_files/logs/9_logcat.txt > 9_avclogcat.txt
+sed 's/^.*avc:/avc:/' 9_avclogcat.txt > 9_avclogcat_1.txt
+sort 9_avclogcat_1.txt | uniq > 9_avclogcat_2.txt
+
 #6. New Document context menu
 touch ~/Templates/Untitled\ Document
