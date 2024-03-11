@@ -21,20 +21,20 @@ wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libtinfo5_6.4-2_am
 wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libncurses5_6.4-2_amd64.deb && sudo dpkg -i libncurses5_6.4-2_amd64.deb && rm -f libncurses5_6.4-2_amd64.deb
 
 #6. Configure ccache
-sudo mkdir /mnt/ccache
+sudo mkdir /mnt/bc197ffa-f9a7-478f-8f83-5627e8820041/ccache
 mkdir /home/bkgrg/.cache/ccache
-sudo mount --bind /home/bkgrg/.cache/ccache /mnt/ccache/
+sudo mount --bind /home/bkgrg/.cache/ccache /mnt/bc197ffa-f9a7-478f-8f83-5627e8820041/ccache
 cat >> ~/.bashrc << EOF
 
 USE_CCACHE=1
 CCACHE_EXEC=/usr/bin/ccache
-CCACHE_DIR=/mnt/ccache
+CCACHE_DIR=/mnt/bc197ffa-f9a7-478f-8f83-5627e8820041/ccache
 ccache -M 75G
 EOF
 sudo su
-echo "/home/bkgrg/.cache/ccache /mnt/ccache none defaults,bind,users,noauto 0 0" | tee -a /etc/fstab
+echo "/home/bkgrg/.cache/ccache /mnt/bc197ffa-f9a7-478f-8f83-5627e8820041/ccache none defaults,bind,users,noauto 0 0" | tee -a /etc/fstab
 exit
-echo "mount /mnt/ccache" | tee -a ~/.profile
+echo "mount /mnt/bc197ffa-f9a7-478f-8f83-5627e8820041/ccache" | tee -a ~/.profile
 source ~/.profile
 
 # Configure repo
