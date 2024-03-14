@@ -61,10 +61,10 @@ sudo dd bs=4M if=xxx.iso of=/dev/sdX status=progress oflag=sync
 sudo chown -R username:username /yourmounteddrivehere
 
 #10. Install latest nvidia drivers
-sudo apt-get remove --purge '^nvidia-.*' -y
+sudo apt-get remove --purge '*nvidia*' -y
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update -y
 sudo apt autoremove -y
 ubuntu-drivers devices
-sudo apt install nvidia-driver-XXX -y
+sudo apt install nvidia-driver-550 -y
 nvidia-smi
