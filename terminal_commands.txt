@@ -68,3 +68,9 @@ sudo apt autoremove -y
 ubuntu-drivers devices
 sudo apt install nvidia-driver-550 -y
 nvidia-smi
+
+#11. Disable WiFi powersaving permanently
+sudo gedit /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
+
+Change the value to 2 for wifi.powersave
+wifi.powersave = 2
