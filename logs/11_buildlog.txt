@@ -1,0 +1,686 @@
+Running product configuration...
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=14
+LINEAGE_VERSION=21.0-20240316-UNOFFICIAL-ruby
+PRODUCT_INCLUDE_TAGS=com.android.mainline
+TARGET_PRODUCT=lineage_ruby
+TARGET_BUILD_VARIANT=eng
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-2a-dotprod
+TARGET_CPU_VARIANT=generic
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-2a
+TARGET_2ND_CPU_VARIANT=generic
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-6.5.0-25-generic-x86_64-Ubuntu-22.04.4-LTS
+HOST_CROSS_OS=windows
+BUILD_ID=UQ1A.240205.004
+OUT_DIR=out
+PRODUCT_SOONG_NAMESPACES=device/xiaomi/ruby hardware/google/interfaces hardware/google/pixel hardware/mediatek hardware/xiaomi vendor/xiaomi/ruby
+============================================
+[  0% 1/317] regenerate globs shard 6 of 1024
+[  0% 2/317] regenerate globs shard 7 of 1024
+[  0% 3/317] regenerate globs shard 10 of 1024
+[  1% 4/317] regenerate globs shard 3 of 1024
+[  1% 5/317] regenerate globs shard 13 of 1024
+[  1% 6/317] regenerate globs shard 0 of 1024
+[  2% 7/317] regenerate globs shard 1 of 1024
+[  2% 8/317] regenerate globs shard 12 of 1024
+[  2% 9/317] regenerate globs shard 19 of 1024
+[  3% 10/317] regenerate globs shard 26 of 1024
+[  3% 11/317] regenerate globs shard 24 of 1024
+[  3% 12/317] regenerate globs shard 15 of 1024
+[  4% 13/317] regenerate globs shard 35 of 1024
+[  4% 14/317] regenerate globs shard 31 of 1024
+[  4% 15/317] regenerate globs shard 37 of 1024
+[  5% 16/317] regenerate globs shard 36 of 1024
+[  5% 17/317] regenerate globs shard 23 of 1024
+[  5% 18/317] regenerate globs shard 32 of 1024
+[  5% 19/317] regenerate globs shard 18 of 1024
+[  6% 20/317] regenerate globs shard 49 of 1024
+[  6% 21/317] regenerate globs shard 58 of 1024
+[  6% 22/317] regenerate globs shard 62 of 1024
+[  7% 23/317] regenerate globs shard 71 of 1024
+[  7% 24/317] regenerate globs shard 64 of 1024
+[  7% 25/317] regenerate globs shard 63 of 1024
+[  8% 26/317] regenerate globs shard 40 of 1024
+[  8% 27/317] regenerate globs shard 59 of 1024
+[  8% 28/317] regenerate globs shard 75 of 1024
+[  9% 29/317] regenerate globs shard 72 of 1024
+[  9% 30/317] regenerate globs shard 39 of 1024
+[  9% 31/317] regenerate globs shard 94 of 1024
+[ 10% 32/317] regenerate globs shard 83 of 1024
+[ 10% 33/317] regenerate globs shard 5 of 1024
+[ 10% 34/317] regenerate globs shard 92 of 1024
+[ 11% 35/317] regenerate globs shard 98 of 1024
+[ 11% 36/317] regenerate globs shard 81 of 1024
+[ 11% 37/317] regenerate globs shard 90 of 1024
+[ 11% 38/317] regenerate globs shard 122 of 1024
+[ 12% 39/317] regenerate globs shard 100 of 1024
+[ 12% 40/317] regenerate globs shard 123 of 1024
+[ 12% 41/317] regenerate globs shard 133 of 1024
+[ 13% 42/317] regenerate globs shard 107 of 1024
+[ 13% 43/317] regenerate globs shard 127 of 1024
+[ 13% 44/317] regenerate globs shard 143 of 1024
+[ 14% 45/317] regenerate globs shard 95 of 1024
+[ 14% 46/317] regenerate globs shard 148 of 1024
+[ 14% 47/317] regenerate globs shard 156 of 1024
+[ 15% 48/317] regenerate globs shard 144 of 1024
+[ 15% 49/317] regenerate globs shard 166 of 1024
+[ 15% 50/317] regenerate globs shard 149 of 1024
+[ 16% 51/317] regenerate globs shard 163 of 1024
+[ 16% 52/317] regenerate globs shard 136 of 1024
+[ 16% 53/317] regenerate globs shard 137 of 1024
+[ 17% 54/317] regenerate globs shard 168 of 1024
+[ 17% 55/317] regenerate globs shard 175 of 1024
+[ 17% 56/317] regenerate globs shard 176 of 1024
+[ 17% 57/317] regenerate globs shard 181 of 1024
+[ 18% 58/317] regenerate globs shard 179 of 1024
+[ 18% 59/317] regenerate globs shard 198 of 1024
+[ 18% 60/317] regenerate globs shard 197 of 1024
+[ 19% 61/317] regenerate globs shard 164 of 1024
+[ 19% 62/317] regenerate globs shard 171 of 1024
+[ 19% 63/317] regenerate globs shard 79 of 1024
+[ 20% 64/317] regenerate globs shard 217 of 1024
+[ 20% 65/317] regenerate globs shard 192 of 1024
+[ 20% 66/317] regenerate globs shard 220 of 1024
+[ 21% 67/317] regenerate globs shard 188 of 1024
+[ 21% 68/317] regenerate globs shard 211 of 1024
+[ 21% 69/317] regenerate globs shard 242 of 1024
+[ 22% 70/317] regenerate globs shard 207 of 1024
+[ 22% 71/317] regenerate globs shard 227 of 1024
+[ 22% 72/317] regenerate globs shard 249 of 1024
+[ 23% 73/317] regenerate globs shard 255 of 1024
+[ 23% 74/317] regenerate globs shard 250 of 1024
+[ 23% 75/317] regenerate globs shard 209 of 1024
+[ 23% 76/317] regenerate globs shard 226 of 1024
+[ 24% 77/317] regenerate globs shard 248 of 1024
+[ 24% 78/317] regenerate globs shard 258 of 1024
+[ 24% 79/317] regenerate globs shard 225 of 1024
+[ 25% 80/317] regenerate globs shard 271 of 1024
+[ 25% 81/317] regenerate globs shard 276 of 1024
+[ 25% 82/317] regenerate globs shard 264 of 1024
+[ 26% 83/317] regenerate globs shard 285 of 1024
+[ 26% 84/317] regenerate globs shard 273 of 1024
+[ 26% 85/317] regenerate globs shard 287 of 1024
+[ 27% 86/317] regenerate globs shard 288 of 1024
+[ 27% 87/317] regenerate globs shard 278 of 1024
+[ 27% 88/317] regenerate globs shard 291 of 1024
+[ 28% 89/317] regenerate globs shard 292 of 1024
+[ 28% 90/317] regenerate globs shard 294 of 1024
+[ 28% 91/317] regenerate globs shard 297 of 1024
+[ 29% 92/317] regenerate globs shard 303 of 1024
+[ 29% 93/317] regenerate globs shard 260 of 1024
+[ 29% 94/317] regenerate globs shard 324 of 1024
+[ 29% 95/317] regenerate globs shard 313 of 1024
+[ 30% 96/317] regenerate globs shard 281 of 1024
+[ 30% 97/317] regenerate globs shard 315 of 1024
+[ 30% 98/317] regenerate globs shard 327 of 1024
+[ 31% 99/317] regenerate globs shard 323 of 1024
+[ 31% 100/317] regenerate globs shard 335 of 1024
+[ 31% 101/317] regenerate globs shard 336 of 1024
+[ 32% 102/317] regenerate globs shard 334 of 1024
+[ 32% 103/317] regenerate globs shard 329 of 1024
+[ 32% 104/317] regenerate globs shard 342 of 1024
+[ 33% 105/317] regenerate globs shard 352 of 1024
+[ 33% 106/317] regenerate globs shard 358 of 1024
+[ 33% 107/317] regenerate globs shard 365 of 1024
+[ 34% 108/317] regenerate globs shard 360 of 1024
+[ 34% 109/317] regenerate globs shard 362 of 1024
+[ 34% 110/317] regenerate globs shard 349 of 1024
+[ 35% 111/317] regenerate globs shard 339 of 1024
+[ 35% 112/317] regenerate globs shard 382 of 1024
+[ 35% 113/317] regenerate globs shard 372 of 1024
+[ 35% 114/317] regenerate globs shard 366 of 1024
+[ 36% 115/317] regenerate globs shard 387 of 1024
+[ 36% 116/317] regenerate globs shard 392 of 1024
+[ 36% 117/317] regenerate globs shard 383 of 1024
+[ 37% 118/317] regenerate globs shard 384 of 1024
+[ 37% 119/317] regenerate globs shard 404 of 1024
+[ 37% 120/317] regenerate globs shard 400 of 1024
+[ 38% 121/317] regenerate globs shard 405 of 1024
+[ 38% 122/317] regenerate globs shard 394 of 1024
+[ 38% 123/317] regenerate globs shard 422 of 1024
+[ 39% 124/317] regenerate globs shard 421 of 1024
+[ 39% 125/317] regenerate globs shard 423 of 1024
+[ 39% 126/317] regenerate globs shard 406 of 1024
+[ 40% 127/317] regenerate globs shard 425 of 1024
+[ 40% 128/317] regenerate globs shard 429 of 1024
+[ 40% 129/317] regenerate globs shard 395 of 1024
+[ 41% 130/317] regenerate globs shard 445 of 1024
+[ 41% 131/317] regenerate globs shard 355 of 1024
+[ 41% 132/317] regenerate globs shard 439 of 1024
+[ 41% 133/317] regenerate globs shard 438 of 1024
+[ 42% 134/317] regenerate globs shard 447 of 1024
+[ 42% 135/317] regenerate globs shard 455 of 1024
+[ 42% 136/317] regenerate globs shard 453 of 1024
+[ 43% 137/317] regenerate globs shard 452 of 1024
+[ 43% 138/317] regenerate globs shard 462 of 1024
+[ 43% 139/317] regenerate globs shard 458 of 1024
+[ 44% 140/317] regenerate globs shard 477 of 1024
+[ 44% 141/317] regenerate globs shard 482 of 1024
+[ 44% 142/317] regenerate globs shard 476 of 1024
+[ 45% 143/317] regenerate globs shard 459 of 1024
+[ 45% 144/317] regenerate globs shard 485 of 1024
+[ 45% 145/317] regenerate globs shard 493 of 1024
+[ 46% 146/317] regenerate globs shard 494 of 1024
+[ 46% 147/317] regenerate globs shard 411 of 1024
+[ 46% 148/317] regenerate globs shard 498 of 1024
+[ 47% 149/317] regenerate globs shard 427 of 1024
+[ 47% 150/317] regenerate globs shard 506 of 1024
+[ 47% 151/317] regenerate globs shard 488 of 1024
+[ 47% 152/317] regenerate globs shard 505 of 1024
+[ 48% 153/317] regenerate globs shard 516 of 1024
+[ 48% 154/317] regenerate globs shard 496 of 1024
+[ 48% 155/317] regenerate globs shard 525 of 1024
+[ 49% 156/317] regenerate globs shard 521 of 1024
+[ 49% 157/317] regenerate globs shard 536 of 1024
+[ 49% 158/317] regenerate globs shard 518 of 1024
+[ 50% 159/317] regenerate globs shard 535 of 1024
+[ 50% 160/317] regenerate globs shard 557 of 1024
+[ 50% 161/317] regenerate globs shard 530 of 1024
+[ 51% 162/317] regenerate globs shard 538 of 1024
+[ 51% 163/317] regenerate globs shard 560 of 1024
+[ 51% 164/317] regenerate globs shard 563 of 1024
+[ 52% 165/317] regenerate globs shard 585 of 1024
+[ 52% 166/317] regenerate globs shard 588 of 1024
+[ 52% 167/317] regenerate globs shard 539 of 1024
+[ 52% 168/317] regenerate globs shard 572 of 1024
+[ 53% 169/317] regenerate globs shard 586 of 1024
+[ 53% 170/317] regenerate globs shard 599 of 1024
+[ 53% 171/317] regenerate globs shard 577 of 1024
+[ 54% 172/317] regenerate globs shard 589 of 1024
+[ 54% 173/317] regenerate globs shard 567 of 1024
+[ 54% 174/317] regenerate globs shard 600 of 1024
+[ 55% 175/317] regenerate globs shard 610 of 1024
+[ 55% 176/317] regenerate globs shard 605 of 1024
+[ 55% 177/317] regenerate globs shard 620 of 1024
+[ 56% 178/317] regenerate globs shard 608 of 1024
+[ 56% 179/317] regenerate globs shard 619 of 1024
+[ 56% 180/317] regenerate globs shard 637 of 1024
+[ 57% 181/317] regenerate globs shard 596 of 1024
+[ 57% 182/317] regenerate globs shard 630 of 1024
+[ 57% 183/317] regenerate globs shard 645 of 1024
+[ 58% 184/317] regenerate globs shard 615 of 1024
+[ 58% 185/317] regenerate globs shard 636 of 1024
+[ 58% 186/317] regenerate globs shard 646 of 1024
+[ 58% 187/317] regenerate globs shard 659 of 1024
+[ 59% 188/317] regenerate globs shard 658 of 1024
+[ 59% 189/317] regenerate globs shard 661 of 1024
+[ 59% 190/317] regenerate globs shard 643 of 1024
+[ 60% 191/317] regenerate globs shard 663 of 1024
+[ 60% 192/317] regenerate globs shard 664 of 1024
+[ 60% 193/317] regenerate globs shard 670 of 1024
+[ 61% 194/317] regenerate globs shard 666 of 1024
+[ 61% 195/317] regenerate globs shard 672 of 1024
+[ 61% 196/317] regenerate globs shard 673 of 1024
+[ 62% 197/317] regenerate globs shard 687 of 1024
+[ 62% 198/317] regenerate globs shard 671 of 1024
+[ 62% 199/317] regenerate globs shard 674 of 1024
+[ 63% 200/317] regenerate globs shard 697 of 1024
+[ 63% 201/317] regenerate globs shard 707 of 1024
+[ 63% 202/317] regenerate globs shard 709 of 1024
+[ 64% 203/317] regenerate globs shard 710 of 1024
+[ 64% 204/317] regenerate globs shard 692 of 1024
+[ 64% 205/317] regenerate globs shard 706 of 1024
+[ 64% 206/317] regenerate globs shard 727 of 1024
+[ 65% 207/317] regenerate globs shard 730 of 1024
+[ 65% 208/317] regenerate globs shard 734 of 1024
+[ 65% 209/317] regenerate globs shard 733 of 1024
+[ 66% 210/317] regenerate globs shard 669 of 1024
+[ 66% 211/317] regenerate globs shard 743 of 1024
+[ 66% 212/317] regenerate globs shard 745 of 1024
+[ 67% 213/317] regenerate globs shard 737 of 1024
+[ 67% 214/317] regenerate globs shard 756 of 1024
+[ 67% 215/317] regenerate globs shard 746 of 1024
+[ 68% 216/317] regenerate globs shard 748 of 1024
+[ 68% 217/317] regenerate globs shard 753 of 1024
+[ 68% 218/317] regenerate globs shard 768 of 1024
+[ 69% 219/317] regenerate globs shard 777 of 1024
+[ 69% 220/317] regenerate globs shard 779 of 1024
+[ 69% 221/317] regenerate globs shard 781 of 1024
+[ 70% 222/317] regenerate globs shard 785 of 1024
+[ 70% 223/317] regenerate globs shard 786 of 1024
+[ 70% 224/317] regenerate globs shard 788 of 1024
+[ 70% 225/317] regenerate globs shard 792 of 1024
+[ 71% 226/317] regenerate globs shard 809 of 1024
+[ 71% 227/317] regenerate globs shard 813 of 1024
+[ 71% 228/317] regenerate globs shard 806 of 1024
+[ 72% 229/317] regenerate globs shard 820 of 1024
+[ 72% 230/317] regenerate globs shard 757 of 1024
+[ 72% 231/317] regenerate globs shard 824 of 1024
+[ 73% 232/317] regenerate globs shard 829 of 1024
+[ 73% 233/317] regenerate globs shard 803 of 1024
+[ 73% 234/317] regenerate globs shard 828 of 1024
+[ 74% 235/317] regenerate globs shard 832 of 1024
+[ 74% 236/317] regenerate globs shard 850 of 1024
+[ 74% 237/317] regenerate globs shard 843 of 1024
+[ 75% 238/317] regenerate globs shard 852 of 1024
+[ 75% 239/317] regenerate globs shard 855 of 1024
+[ 75% 240/317] regenerate globs shard 864 of 1024
+[ 76% 241/317] regenerate globs shard 862 of 1024
+[ 76% 242/317] regenerate globs shard 860 of 1024
+[ 76% 243/317] regenerate globs shard 866 of 1024
+[ 76% 244/317] regenerate globs shard 871 of 1024
+[ 77% 245/317] regenerate globs shard 873 of 1024
+[ 77% 246/317] regenerate globs shard 870 of 1024
+[ 77% 247/317] regenerate globs shard 867 of 1024
+[ 78% 248/317] regenerate globs shard 875 of 1024
+[ 78% 249/317] regenerate globs shard 883 of 1024
+[ 78% 250/317] regenerate globs shard 885 of 1024
+[ 79% 251/317] regenerate globs shard 874 of 1024
+[ 79% 252/317] regenerate globs shard 887 of 1024
+[ 79% 253/317] regenerate globs shard 901 of 1024
+[ 80% 254/317] regenerate globs shard 903 of 1024
+[ 80% 255/317] regenerate globs shard 898 of 1024
+[ 80% 256/317] regenerate globs shard 909 of 1024
+[ 81% 257/317] regenerate globs shard 913 of 1024
+[ 81% 258/317] regenerate globs shard 904 of 1024
+[ 81% 259/317] regenerate globs shard 305 of 1024
+[ 82% 260/317] regenerate globs shard 924 of 1024
+[ 82% 261/317] regenerate globs shard 892 of 1024
+[ 82% 262/317] regenerate globs shard 925 of 1024
+[ 82% 263/317] regenerate globs shard 914 of 1024
+[ 83% 264/317] regenerate globs shard 928 of 1024
+[ 83% 265/317] regenerate globs shard 934 of 1024
+[ 83% 266/317] regenerate globs shard 931 of 1024
+[ 84% 267/317] regenerate globs shard 948 of 1024
+[ 84% 268/317] regenerate globs shard 940 of 1024
+[ 84% 269/317] regenerate globs shard 938 of 1024
+[ 85% 270/317] regenerate globs shard 952 of 1024
+[ 85% 271/317] regenerate globs shard 956 of 1024
+[ 85% 272/317] regenerate globs shard 962 of 1024
+[ 86% 273/317] regenerate globs shard 963 of 1024
+[ 86% 274/317] regenerate globs shard 971 of 1024
+[ 86% 275/317] regenerate globs shard 977 of 1024
+[ 87% 276/317] regenerate globs shard 989 of 1024
+[ 87% 277/317] regenerate globs shard 985 of 1024
+[ 87% 278/317] regenerate globs shard 979 of 1024
+[ 88% 279/317] regenerate globs shard 995 of 1024
+[ 88% 280/317] regenerate globs shard 1005 of 1024
+[ 88% 281/317] regenerate globs shard 1000 of 1024
+[ 88% 282/317] regenerate globs shard 965 of 1024
+[ 89% 283/317] regenerate globs shard 1011 of 1024
+[ 89% 284/317] regenerate globs shard 1012 of 1024
+[ 89% 285/317] regenerate globs shard 1013 of 1024
+[ 90% 286/317] regenerate globs shard 15 of 1024
+[ 90% 287/317] regenerate globs shard 32 of 1024
+[ 90% 288/317] regenerate globs shard 1017 of 1024
+[ 91% 289/317] regenerate globs shard 175 of 1024
+[ 91% 290/317] regenerate globs shard 305 of 1024
+[ 91% 291/317] regenerate globs shard 372 of 1024
+[ 92% 292/317] regenerate globs shard 352 of 1024
+[ 92% 293/317] regenerate globs shard 382 of 1024
+[ 92% 294/317] regenerate globs shard 1019 of 1024
+[ 93% 295/317] regenerate globs shard 392 of 1024
+[ 93% 296/317] regenerate globs shard 421 of 1024
+[ 93% 297/317] regenerate globs shard 425 of 1024
+[ 94% 298/317] regenerate globs shard 1003 of 1024
+[ 94% 299/317] regenerate globs shard 488 of 1024
+[ 94% 300/317] regenerate globs shard 585 of 1024
+[ 94% 301/317] regenerate globs shard 670 of 1024
+[ 95% 302/317] regenerate globs shard 707 of 1024
+[ 95% 303/317] regenerate globs shard 733 of 1024
+[ 95% 304/317] regenerate globs shard 757 of 1024
+[ 96% 305/317] regenerate globs shard 753 of 1024
+[ 96% 306/317] regenerate globs shard 803 of 1024
+[ 96% 307/317] regenerate globs shard 813 of 1024
+[ 97% 308/317] regenerate globs shard 843 of 1024
+[ 97% 309/317] regenerate globs shard 885 of 1024
+[ 97% 310/317] regenerate globs shard 909 of 1024
+[ 98% 311/317] regenerate globs shard 914 of 1024
+[ 98% 312/316] regenerate globs shard 613 of 1024
+[ 99% 313/316] regenerate globs shard 699 of 1024
+[ 99% 314/316] regenerate globs shard 818 of 1024
+[100% 315/315] Creating Bazel symlink forest
+No need to regenerate ninja file
+No need to regenerate ninja file
+No need to regenerate ninja file
+Starting ninja...
+[ 92% 316/341] build out/target/product/ruby/gen/ETC/framework_compatibility_matrix.device.xml_intermediates/compatibility_matrix.device.xml
+FAILED: out/target/product/ruby/gen/ETC/framework_compatibility_matrix.device.xml_intermediates/compatibility_matrix.device.xml
+/bin/bash -c "POLICYVERS=\"30\" PLATFORM_SEPOLICY_VERSION=\"34.0\" PLATFORM_SEPOLICY_COMPAT_VERSIONS=\"29.0 30.0 31.0 32.0 33.0 \" FRAMEWORK_VBMETA_VERSION=\"\$(\"out/host/linux-x86/bin/avbtool\" add_hashtree_footer --print_required_libavb_version  --prop com.android.build.system.os_version:14 --prop com.android.build.system.fingerprint:\$(cat out/target/product/ruby/build_fingerprint.txt) --prop com.android.build.system.security_patch:2024-02-05)\" 		 		out/host/linux-x86/bin/assemble_vintf 		-i device/xiaomi/ruby/framework_compatibility_matrix.xml:vendor/lineage/config/device_framework_matrix.xml 		-o out/target/product/ruby/gen/ETC/framework_compatibility_matrix.device.xml_intermediates/compatibility_matrix.device.xml 		 -c \"out/target/product/ruby/gen/ETC/framework_compatibility_matrix.device.xml_intermediates/manifest.check.xml\""
+Input file has unknown format.
+Error when attempting to convert to manifest: 
+Error when attempting to convert to compatibility matrix: Could not parse element with name <hal> in element <compatibility-matrix>: Could not parse element with name <version> in element <hal>: Could not parse text "3" in element <version>
+[ 92% 317/341] Building Kernel Config
+make: Entering directory '/home/bkgrg/android/lineage/kernel/xiaomi/mt6877'
+make[1]: Entering directory '/home/bkgrg/android/lineage/out/target/product/ruby/obj/KERNEL_OBJ'
+  GEN     ./Makefile
+drivers/misc/mediatek/base/power/Kconfig:90:warning: ignoring type redefinition of 'MTK_QOS_FRAMEWORK' from 'tristate' to 'bool'
+drivers/input/touchscreen/goodix_9916r/Kconfig:4:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:5:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:6:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:7:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:12:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:13:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:14:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:15:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:16:warning: ignoring unsupported character ''
+drivers/input/misc/Kconfig:15:warning: multi-line strings not supported
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+sound/soc/codecs/aw882xx/Kconfig:4: warning: 'SND_SMARTPA_AW882XX' defined with blank help text
+drivers/soc/mediatek/Kconfig:7:warning: ignoring type redefinition of 'MTK_CMDQ' from 'bool' to 'tristate'
+
+WARNING: unmet direct dependencies detected for MTK_PID_MAP
+  Depends on [n]: (MTK_GMO_RAM_OPTIMIZE [=n] && MTK_ENG_BUILD [=n] || !MTK_GMO_RAM_OPTIMIZE [=n]) && DEBUG_FS [=n]
+  Selected by [y]:
+  - MACH_MT6877 [=y]
+
+WARNING: unmet direct dependencies detected for MTK_PID_MAP
+  Depends on [n]: (MTK_GMO_RAM_OPTIMIZE [=n] && MTK_ENG_BUILD [=n] || !MTK_GMO_RAM_OPTIMIZE [=n]) && DEBUG_FS [=n]
+  Selected by [y]:
+  - MACH_MT6877 [=y]
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/home/bkgrg/android/lineage/out/target/product/ruby/obj/KERNEL_OBJ'
+make: Leaving directory '/home/bkgrg/android/lineage/kernel/xiaomi/mt6877'
+[ 93% 318/341] Building dtbo.img
+make: Entering directory '/home/bkgrg/android/lineage/kernel/xiaomi/mt6877'
+make[1]: Entering directory '/home/bkgrg/android/lineage/out/target/product/ruby/obj/DTBO_OBJ'
+  GEN     ./Makefile
+drivers/misc/mediatek/base/power/Kconfig:90:warning: ignoring type redefinition of 'MTK_QOS_FRAMEWORK' from 'tristate' to 'bool'
+drivers/input/touchscreen/goodix_9916r/Kconfig:4:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:5:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:6:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:7:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:12:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:13:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:14:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:15:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:16:warning: ignoring unsupported character ''
+drivers/input/misc/Kconfig:15:warning: multi-line strings not supported
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+sound/soc/codecs/aw882xx/Kconfig:4: warning: 'SND_SMARTPA_AW882XX' defined with blank help text
+drivers/soc/mediatek/Kconfig:7:warning: ignoring type redefinition of 'MTK_CMDQ' from 'bool' to 'tristate'
+
+WARNING: unmet direct dependencies detected for MTK_PID_MAP
+  Depends on [n]: (MTK_GMO_RAM_OPTIMIZE [=n] && MTK_ENG_BUILD [=n] || !MTK_GMO_RAM_OPTIMIZE [=n]) && DEBUG_FS [=n]
+  Selected by [y]:
+  - MACH_MT6877 [=y]
+
+WARNING: unmet direct dependencies detected for MTK_PID_MAP
+  Depends on [n]: (MTK_GMO_RAM_OPTIMIZE [=n] && MTK_ENG_BUILD [=n] || !MTK_GMO_RAM_OPTIMIZE [=n]) && DEBUG_FS [=n]
+  Selected by [y]:
+  - MACH_MT6877 [=y]
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/home/bkgrg/android/lineage/out/target/product/ruby/obj/DTBO_OBJ'
+make: Leaving directory '/home/bkgrg/android/lineage/kernel/xiaomi/mt6877'
+make: Entering directory '/home/bkgrg/android/lineage/kernel/xiaomi/mt6877'
+make[1]: Entering directory '/home/bkgrg/android/lineage/out/target/product/ruby/obj/DTBO_OBJ'
+  GEN     ./Makefile
+scripts/kconfig/conf  --syncconfig Kconfig
+drivers/misc/mediatek/base/power/Kconfig:90:warning: ignoring type redefinition of 'MTK_QOS_FRAMEWORK' from 'tristate' to 'bool'
+drivers/input/touchscreen/goodix_9916r/Kconfig:4:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:5:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:6:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:7:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:12:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:13:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:14:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:15:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:16:warning: ignoring unsupported character ''
+drivers/input/misc/Kconfig:15:warning: multi-line strings not supported
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+sound/soc/codecs/aw882xx/Kconfig:4: warning: 'SND_SMARTPA_AW882XX' defined with blank help text
+drivers/soc/mediatek/Kconfig:7:warning: ignoring type redefinition of 'MTK_CMDQ' from 'bool' to 'tristate'
+
+WARNING: unmet direct dependencies detected for MTK_PID_MAP
+  Depends on [n]: (MTK_GMO_RAM_OPTIMIZE [=n] && MTK_ENG_BUILD [=n] || !MTK_GMO_RAM_OPTIMIZE [=n]) && DEBUG_FS [=n]
+  Selected by [y]:
+  - MACH_MT6877 [=y]
+
+WARNING: unmet direct dependencies detected for MTK_PID_MAP
+  Depends on [n]: (MTK_GMO_RAM_OPTIMIZE [=n] && MTK_ENG_BUILD [=n] || !MTK_GMO_RAM_OPTIMIZE [=n]) && DEBUG_FS [=n]
+  Selected by [y]:
+  - MACH_MT6877 [=y]
+
+WARNING: unmet direct dependencies detected for MTK_PID_MAP
+  Depends on [n]: (MTK_GMO_RAM_OPTIMIZE [=n] && MTK_ENG_BUILD [=n] || !MTK_GMO_RAM_OPTIMIZE [=n]) && DEBUG_FS [=n]
+  Selected by [y]:
+  - MACH_MT6877 [=y]
+  GEN     ./Makefile
+  Using /home/bkgrg/android/lineage/kernel/xiaomi/mt6877 as source for kernel
+  CALL    /home/bkgrg/android/lineage/kernel/xiaomi/mt6877/scripts/checksyscalls.sh
+  DTC     arch/arm64/boot/dts/mediatek/ruby.dtbo
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/xiaomi-mt6877-common.dtsi:427.3-16: Warning (reg_format): /fragment@20/__overlay__/st21nfc@08:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/xiaomi-mt6877-common.dtsi:484.3-13: Warning (reg_format): /fragment@22/__overlay__/st54spi@0:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877-touch.dts:66.3-15: Warning (reg_format): /fragment@27/__overlay__/m16-touch@0:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877-audio.dtsi:31.3-16: Warning (reg_format): /fragment@29/__overlay__/aw882xx@34:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877-audio.dtsi:44.3-16: Warning (reg_format): /fragment@29/__overlay__/aw882xx@35:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877-audio.dtsi:60.3-16: Warning (reg_format): /fragment@30/__overlay__/aw869x_haptic@5a:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:413.3-16: Warning (reg_format): /fragment@34/__overlay__/camera_eeprom0@51:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:420.3-16: Warning (reg_format): /fragment@35/__overlay__/camera_eeprom1@51:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:425.3-16: Warning (reg_format): /fragment@35/__overlay__/camera_eeprom2@50:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:432.3-16: Warning (reg_format): /fragment@36/__overlay__/camera_eeprom4@51:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:445.3-16: Warning (reg_format): /fragment@37/__overlay__/onsemi,ldo@35:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:530.3-16: Warning (reg_format): /fragment@39/__overlay__/camera_main_af@0c:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:215.3-16: Warning (reg_format): /fragment@48/__overlay__/mp2762@5c:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:230.3-16: Warning (reg_format): /fragment@48/__overlay__/bq25980_standalone2@67:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:238.3-16: Warning (reg_format): /fragment@48/__overlay__/bq25980_standalone3@66:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:249.3-16: Warning (reg_format): /fragment@49/__overlay__/sc8551_i2c7@66:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:260.3-16: Warning (reg_format): /fragment@49/__overlay__/ln8000@51:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:303.3-16: Warning (reg_format): /fragment@49/__overlay__/sc8561_master@64:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:309.3-16: Warning (reg_format): /fragment@49/__overlay__/ln8410_master@66:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:319.3-16: Warning (reg_format): /fragment@50/__overlay__/xmusb350@35:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:335.3-16: Warning (reg_format): /fragment@50/__overlay__/bq28z610@55:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:364.3-16: Warning (reg_format): /fragment@50/__overlay__/max77932@68:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:370.3-16: Warning (reg_format): /fragment@50/__overlay__/bq25980_standalone1@65:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:377.3-16: Warning (reg_format): /fragment@50/__overlay__/sc8551_i2c11@66:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:388.3-16: Warning (reg_format): /fragment@50/__overlay__/ln8000-secondary@51:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:431.3-16: Warning (reg_format): /fragment@50/__overlay__/sc8561_slave@65:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:437.3-16: Warning (reg_format): /fragment@50/__overlay__/ln8410_slave@67:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/mediatek/ruby.dtbo: Warning (pci_device_bus_num): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/mediatek/ruby.dtbo: Warning (i2c_bus_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/mediatek/ruby.dtbo: Warning (spi_bus_reg): Failed prerequisite 'reg_format'
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/xiaomi-mt6877-common.dtsi:425.13-439.4: Warning (avoid_default_addr_size): /fragment@20/__overlay__/st21nfc@08: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/xiaomi-mt6877-common.dtsi:425.13-439.4: Warning (avoid_default_addr_size): /fragment@20/__overlay__/st21nfc@08: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/xiaomi-mt6877-common.dtsi:482.12-495.4: Warning (avoid_default_addr_size): /fragment@22/__overlay__/st54spi@0: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/xiaomi-mt6877-common.dtsi:482.12-495.4: Warning (avoid_default_addr_size): /fragment@22/__overlay__/st54spi@0: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877-touch.dts:63.14-110.4: Warning (avoid_default_addr_size): /fragment@27/__overlay__/m16-touch@0: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877-touch.dts:63.14-110.4: Warning (avoid_default_addr_size): /fragment@27/__overlay__/m16-touch@0: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877-audio.dtsi:29.32-39.4: Warning (avoid_default_addr_size): /fragment@29/__overlay__/aw882xx@34: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877-audio.dtsi:29.32-39.4: Warning (avoid_default_addr_size): /fragment@29/__overlay__/aw882xx@34: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877-audio.dtsi:42.32-51.4: Warning (avoid_default_addr_size): /fragment@29/__overlay__/aw882xx@35: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877-audio.dtsi:42.32-51.4: Warning (avoid_default_addr_size): /fragment@29/__overlay__/aw882xx@35: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877-audio.dtsi:58.19-242.4: Warning (avoid_default_addr_size): /fragment@30/__overlay__/aw869x_haptic@5a: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877-audio.dtsi:58.19-242.4: Warning (avoid_default_addr_size): /fragment@30/__overlay__/aw869x_haptic@5a: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:411.39-415.4: Warning (avoid_default_addr_size): /fragment@34/__overlay__/camera_eeprom0@51: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:411.39-415.4: Warning (avoid_default_addr_size): /fragment@34/__overlay__/camera_eeprom0@51: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:418.39-422.4: Warning (avoid_default_addr_size): /fragment@35/__overlay__/camera_eeprom1@51: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:418.39-422.4: Warning (avoid_default_addr_size): /fragment@35/__overlay__/camera_eeprom1@51: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:423.39-427.4: Warning (avoid_default_addr_size): /fragment@35/__overlay__/camera_eeprom2@50: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:423.39-427.4: Warning (avoid_default_addr_size): /fragment@35/__overlay__/camera_eeprom2@50: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:430.39-434.4: Warning (avoid_default_addr_size): /fragment@36/__overlay__/camera_eeprom4@51: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:430.39-434.4: Warning (avoid_default_addr_size): /fragment@36/__overlay__/camera_eeprom4@51: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:443.28-517.4: Warning (avoid_default_addr_size): /fragment@37/__overlay__/onsemi,ldo@35: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:443.28-517.4: Warning (avoid_default_addr_size): /fragment@37/__overlay__/onsemi,ldo@35: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:528.39-532.4: Warning (avoid_default_addr_size): /fragment@39/__overlay__/camera_main_af@0c: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/cust_ruby_camera.dtsi:528.39-532.4: Warning (avoid_default_addr_size): /fragment@39/__overlay__/camera_main_af@0c: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:213.12-226.4: Warning (avoid_default_addr_size): /fragment@48/__overlay__/mp2762@5c: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:213.12-226.4: Warning (avoid_default_addr_size): /fragment@48/__overlay__/mp2762@5c: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:228.25-234.4: Warning (avoid_default_addr_size): /fragment@48/__overlay__/bq25980_standalone2@67: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:228.25-234.4: Warning (avoid_default_addr_size): /fragment@48/__overlay__/bq25980_standalone2@67: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:236.25-240.4: Warning (avoid_default_addr_size): /fragment@48/__overlay__/bq25980_standalone3@66: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:236.25-240.4: Warning (avoid_default_addr_size): /fragment@48/__overlay__/bq25980_standalone3@66: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:247.17-256.4: Warning (avoid_default_addr_size): /fragment@49/__overlay__/sc8551_i2c7@66: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:247.17-256.4: Warning (avoid_default_addr_size): /fragment@49/__overlay__/sc8551_i2c7@66: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:258.12-299.4: Warning (avoid_default_addr_size): /fragment@49/__overlay__/ln8000@51: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:258.12-299.4: Warning (avoid_default_addr_size): /fragment@49/__overlay__/ln8000@51: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:301.19-305.4: Warning (avoid_default_addr_size): /fragment@49/__overlay__/sc8561_master@64: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:301.19-305.4: Warning (avoid_default_addr_size): /fragment@49/__overlay__/sc8561_master@64: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:307.19-311.4: Warning (avoid_default_addr_size): /fragment@49/__overlay__/ln8410_master@66: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:307.19-311.4: Warning (avoid_default_addr_size): /fragment@49/__overlay__/ln8410_master@66: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:317.14-331.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/xmusb350@35: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:317.14-331.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/xmusb350@35: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:333.14-360.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/bq28z610@55: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:333.14-360.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/bq28z610@55: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:362.14-366.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/max77932@68: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:362.14-366.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/max77932@68: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:368.25-373.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/bq25980_standalone1@65: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:368.25-373.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/bq25980_standalone1@65: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:375.18-384.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/sc8551_i2c11@66: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:375.18-384.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/sc8551_i2c11@66: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:386.22-427.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/ln8000-secondary@51: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:386.22-427.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/ln8000-secondary@51: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:429.18-433.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/sc8561_slave@65: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:429.18-433.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/sc8561_slave@65: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:435.18-439.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/ln8410_slave@67: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:435.18-439.4: Warning (avoid_default_addr_size): /fragment@50/__overlay__/ln8410_slave@67: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877-audio.dtsi:21.25-23.4: Warning (sound_dai_property): /fragment@28/__overlay__/mediatek,speaker-codec: Missing property '#sound-dai-cells' in node /fragment@29/__overlay__/aw882xx@34 or bad phandle (referred from sound-dai[0])
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby/cust.dtsi:474.25-482.3: Warning (interrupts_property): /fragment@85/__overlay__: Missing interrupt-parent
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby/cust.dtsi:484.25-492.3: Warning (interrupts_property): /fragment@86/__overlay__: Missing interrupt-parent
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/ruby-mt6877.dtsi:86.24-88.6: Warning (graph_endpoint): /fragment@46/__overlay__/panel2@0/port/endpoint: graph connection to node '/fragment@46/__overlay__/ports/port/endpoint' is not bidirectional
+make[1]: Leaving directory '/home/bkgrg/android/lineage/out/target/product/ruby/obj/DTBO_OBJ'
+make: Leaving directory '/home/bkgrg/android/lineage/kernel/xiaomi/mt6877'
+[ 93% 319/341] Building dtb.img
+make: Entering directory '/home/bkgrg/android/lineage/kernel/xiaomi/mt6877'
+make[1]: Entering directory '/home/bkgrg/android/lineage/out/target/product/ruby/obj/DTB_OBJ'
+  GEN     ./Makefile
+drivers/misc/mediatek/base/power/Kconfig:90:warning: ignoring type redefinition of 'MTK_QOS_FRAMEWORK' from 'tristate' to 'bool'
+drivers/input/touchscreen/goodix_9916r/Kconfig:4:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:5:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:6:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:7:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:12:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:13:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:14:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:15:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:16:warning: ignoring unsupported character ''
+drivers/input/misc/Kconfig:15:warning: multi-line strings not supported
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+sound/soc/codecs/aw882xx/Kconfig:4: warning: 'SND_SMARTPA_AW882XX' defined with blank help text
+drivers/soc/mediatek/Kconfig:7:warning: ignoring type redefinition of 'MTK_CMDQ' from 'bool' to 'tristate'
+
+WARNING: unmet direct dependencies detected for MTK_PID_MAP
+  Depends on [n]: (MTK_GMO_RAM_OPTIMIZE [=n] && MTK_ENG_BUILD [=n] || !MTK_GMO_RAM_OPTIMIZE [=n]) && DEBUG_FS [=n]
+  Selected by [y]:
+  - MACH_MT6877 [=y]
+
+WARNING: unmet direct dependencies detected for MTK_PID_MAP
+  Depends on [n]: (MTK_GMO_RAM_OPTIMIZE [=n] && MTK_ENG_BUILD [=n] || !MTK_GMO_RAM_OPTIMIZE [=n]) && DEBUG_FS [=n]
+  Selected by [y]:
+  - MACH_MT6877 [=y]
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/home/bkgrg/android/lineage/out/target/product/ruby/obj/DTB_OBJ'
+make: Leaving directory '/home/bkgrg/android/lineage/kernel/xiaomi/mt6877'
+make: Entering directory '/home/bkgrg/android/lineage/kernel/xiaomi/mt6877'
+make[1]: Entering directory '/home/bkgrg/android/lineage/out/target/product/ruby/obj/DTB_OBJ'
+  GEN     ./Makefile
+scripts/kconfig/conf  --syncconfig Kconfig
+drivers/misc/mediatek/base/power/Kconfig:90:warning: ignoring type redefinition of 'MTK_QOS_FRAMEWORK' from 'tristate' to 'bool'
+drivers/input/touchscreen/goodix_9916r/Kconfig:4:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:5:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:6:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:7:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:12:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:13:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:14:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:15:warning: ignoring unsupported character ''
+drivers/input/touchscreen/goodix_9916r/Kconfig:16:warning: ignoring unsupported character ''
+drivers/input/misc/Kconfig:15:warning: multi-line strings not supported
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+drivers/power/supply/mediatek/charger/Kconfig:199:warning: ignoring type redefinition of 'CHARGER_BQ25890' from 'tristate' to 'bool'
+sound/soc/codecs/aw882xx/Kconfig:4: warning: 'SND_SMARTPA_AW882XX' defined with blank help text
+drivers/soc/mediatek/Kconfig:7:warning: ignoring type redefinition of 'MTK_CMDQ' from 'bool' to 'tristate'
+
+WARNING: unmet direct dependencies detected for MTK_PID_MAP
+  Depends on [n]: (MTK_GMO_RAM_OPTIMIZE [=n] && MTK_ENG_BUILD [=n] || !MTK_GMO_RAM_OPTIMIZE [=n]) && DEBUG_FS [=n]
+  Selected by [y]:
+  - MACH_MT6877 [=y]
+
+WARNING: unmet direct dependencies detected for MTK_PID_MAP
+  Depends on [n]: (MTK_GMO_RAM_OPTIMIZE [=n] && MTK_ENG_BUILD [=n] || !MTK_GMO_RAM_OPTIMIZE [=n]) && DEBUG_FS [=n]
+  Selected by [y]:
+  - MACH_MT6877 [=y]
+
+WARNING: unmet direct dependencies detected for MTK_PID_MAP
+  Depends on [n]: (MTK_GMO_RAM_OPTIMIZE [=n] && MTK_ENG_BUILD [=n] || !MTK_GMO_RAM_OPTIMIZE [=n]) && DEBUG_FS [=n]
+  Selected by [y]:
+  - MACH_MT6877 [=y]
+  GEN     ./Makefile
+  Using /home/bkgrg/android/lineage/kernel/xiaomi/mt6877 as source for kernel
+  CALL    /home/bkgrg/android/lineage/kernel/xiaomi/mt6877/scripts/checksyscalls.sh
+  DTC     arch/arm64/boot/dts/mediatek/mt6877.dtb
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/mt6877.dts:5714:27: warning: extra tokens at end of #ifdef directive [-Wextra-tokens]
+#ifdef CONFIG_MTK_HAPP_MEM-SUPPORT
+                          ^
+                          //
+1 warning generated.
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/rt5133.dtsi:47.3-16: Warning (reg_format): /i2c3@11cb0000/rt5133@18:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/mt6877.dts:6743.3-16: Warning (reg_format): /i2c6@11f00000/speaker_amp@5c:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/mt6877.dts:6749.3-16: Warning (reg_format): /i2c6@11f00000/gate_ic@11:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/mt6877.dts:6936.3-16: Warning (reg_format): /i2c6@11f00000/ps5169@28:reg: property has invalid length (4 bytes) (#address-cells == 2, #size-cells == 1)
+arch/arm64/boot/dts/mediatek/mt6877.dtb: Warning (pci_device_bus_num): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/mediatek/mt6877.dtb: Warning (i2c_bus_reg): Failed prerequisite 'reg_format'
+arch/arm64/boot/dts/mediatek/mt6877.dtb: Warning (spi_bus_reg): Failed prerequisite 'reg_format'
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/rt5133.dtsi:44.20-138.4: Warning (avoid_default_addr_size): /i2c3@11cb0000/rt5133@18: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/rt5133.dtsi:44.20-138.4: Warning (avoid_default_addr_size): /i2c3@11cb0000/rt5133@18: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/mt6877.dts:6740.30-6745.4: Warning (avoid_default_addr_size): /i2c6@11f00000/speaker_amp@5c: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/mt6877.dts:6740.30-6745.4: Warning (avoid_default_addr_size): /i2c6@11f00000/speaker_amp@5c: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/mt6877.dts:6746.22-6751.4: Warning (avoid_default_addr_size): /i2c6@11f00000/gate_ic@11: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/mt6877.dts:6746.22-6751.4: Warning (avoid_default_addr_size): /i2c6@11f00000/gate_ic@11: Relying on default #size-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/mt6877.dts:6934.20-6938.4: Warning (avoid_default_addr_size): /i2c6@11f00000/ps5169@28: Relying on default #address-cells value
+/home/bkgrg/android/lineage/kernel/xiaomi/mt6877/arch/arm64/boot/dts/mediatek/mt6877.dts:6934.20-6938.4: Warning (avoid_default_addr_size): /i2c6@11f00000/ps5169@28: Relying on default #size-cells value
+make[1]: Leaving directory '/home/bkgrg/android/lineage/out/target/product/ruby/obj/DTB_OBJ'
+make: Leaving directory '/home/bkgrg/android/lineage/kernel/xiaomi/mt6877'
+ninja: build stopped: subcommand failed.
+07:19:17 ninja failed with: exit status 1
+
+[0;31m#### failed to build some targets (34 seconds) ####[00m
+

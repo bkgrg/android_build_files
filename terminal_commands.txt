@@ -7,7 +7,6 @@ swapoff -a -v
 rm /swapfile
 dd if=/dev/zero of=/swapfile bs=1M count=16000
 mkswap /swapfile && chmod 600 /swapfile && swapon /swapfile
-echo "/swapfile swap swap auto 0 0" | tee -a /etc/fstab
 sysctl -w vm.swappiness=100
 sysctl -w vm.vfs_cache_pressure=10
 echo vm.swappiness=100 | tee -a /etc/sysctl.conf
@@ -16,16 +15,20 @@ echo vm.vfs_cache_pressure=10 | tee -a /etc/sysctl.conf
 #2. Updates & Cleanup
 sudo ubuntu-drivers install
 sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y
-sudo apt clean
+sudo apt dist-upgrade -y
+sudo updade-manager
+sudo apt clean -y
 sudo apt update -m
 sudo dpkg --configure -a
 sudo apt install -f
-sudo apt autoremove --purge
-sudo do-release-upgrade
+sudo apt autoremove --purge -y
+sudo do-release-upgrade -y
 sudo apt autoremove -y
 sudo apt autoclean -y
 sudo apt autoremove --purge -y
 sudo apt clean -y
+
+sudo updade-manager -d
 
 #3. Install commonly used packages
 sudo apt-get install gedit

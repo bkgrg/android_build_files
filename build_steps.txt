@@ -15,7 +15,7 @@ EOF
 source ~/.profile
 
 #2. Install required packages
-sudo apt-get install adb bc bison build-essential ccache curl flex gcc-multilib git git-core git-lfs gnupg g++-multilib libc6-dev-i386 libgl1-mesa-dev libxml2-utils libx11-dev lib32z1-dev python-is-python3 repo xsltproc x11proto-core-dev unzip wget zip zlib1g-dev -y
+sudo apt update -y && sudo apt-get install adb bison build-essential curl fastboot flex git-core git-lfs gnupg libncurses5 libxml2-utils repo xsltproc zip zlib1g-dev -y
 
 wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libtinfo5_6.4-2_amd64.deb && sudo dpkg -i libtinfo5_6.4-2_amd64.deb && rm -f libtinfo5_6.4-2_amd64.deb
 wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libncurses5_6.4-2_amd64.deb && sudo dpkg -i libncurses5_6.4-2_amd64.deb && rm -f libncurses5_6.4-2_amd64.deb
@@ -52,11 +52,12 @@ git lfs install
 #8. Repo init Source
 mkdir -p ~/android/lineage && cd ~/android/lineage
 repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
+repo init -u https://github.com/bkgrg/android.git -b lineage-21.0 --git-lfs
 
 #9. Add repo entry for Device Specific Codes
 cd ~/android/lineage
 mkdir -p ~/android/lineage/.repo/local_manifests
-cat >> ~/android/lineage/.repo/local_manifests/ruby.xml << EOF
+cat >> ~/android/lineage/.repo/local_manifests/roomservice.xml << EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!--    <remote name="gitlab" fetch="https://gitlab.com" /> -->
@@ -137,6 +138,13 @@ croot
         signed-target_files.zip \
         signed-ota_update.zip
 
+#15. 
+fastboot flash dtbo dtbo.img
+fastboot flash vbmeta vbmeta.img
+fastboot wipe-super super_empty.img
+fastboot flash boot boot.img
+fastboot reboot recovery
+adb -d sideload xxx.zip
 
 #14. Check logcats
 adb root
