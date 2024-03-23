@@ -4,20 +4,15 @@
 sudo su
 swapoff -a
 swapoff -a -v
-rm /swapfile
-dd if=/dev/zero of=/swapfile bs=1M count=16000
-mkswap /swapfile && chmod 600 /swapfile && swapon /swapfile
-sysctl -w vm.swappiness=0
-sysctl -w vm.vfs_cache_pressure=100
-echo vm.swappiness=100 | tee -a /etc/sysctl.conf
-echo vm.vfs_cache_pressure=10 | tee -a /etc/sysctl.conf
+rm /swap.img
+dd if=/dev/zero of=/swap.img bs=1M count=16000
+mkswap /swap.img && chmod 600 /swap.img && swapon /swap.img
+sysctl -w vm.swappiness=0 && echo vm.swappiness=100 | tee -a /etc/sysctl.conf
+sysctl -w vm.vfs_cache_pressure=100 && echo vm.vfs_cache_pressure=10 | tee -a /etc/sysctl.conf
 
 #2. Updates & Cleanup
 sudo ubuntu-drivers install
 sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y
-sudo apt update -m
-sudo do-release-upgrade
-sudo apt dist-upgrade -y
 sudo update-manager
 sudo dpkg --configure -a
 sudo apt install -f
@@ -25,12 +20,14 @@ sudo apt autoremove -y
 sudo apt autoremove --purge -y
 sudo apt autoclean -y
 sudo apt clean -y
+
+sudo apt dist-upgrade -y
 sudo update-manager -d
 
 #3. Install commonly used packages
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i google-chrome-stable_current_amd64.deb && sudo apt-get install -f && rm -f google-chrome-stable_current_amd64.deb
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb && sudo dpkg -i gitkraken-amd64.deb && sudo apt-get install -f && rm -f gitkraken-amd64.deb
-wget https://cdn.akamai.steamstatic.com/client/installer/steam.deb && sudo dpkg -i steam_latest.deb && sudo apt-get install -f && rm -f steam_latest.deb
+wget https://cdn.akamai.steamstatic.com/client/installer/steam.deb && sudo dpkg -i steam.deb && sudo apt-get install -f && rm -f steam.deb
 
 #4. Reinstall required packages
 apt list --installed
