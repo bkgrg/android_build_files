@@ -66,6 +66,9 @@ cat >> ~/android/lineage/.repo/local_manifests/roomservice.xml << EOF
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote name="gitlab"
+	   fetch="https://gitlab.com" />
+
   <!-- Device Tree --> 
   <project name="xiaomi-mediatek-devs/android_device_xiaomi_ruby" path="device/xiaomi/ruby" remote="github" revision="lineage-21" />
   
