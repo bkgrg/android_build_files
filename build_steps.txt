@@ -61,6 +61,13 @@ cat >> ~/android/lineage/.repo/local_manifests/roomservice.xml << EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="github"
+           fetch=".."
+           review="review.lineageos.org" />
+
+  <remote  name="private"
+           fetch="ssh://git@github.com" />
+
   <!-- Device Tree --> 
   <project name="xiaomi-mediatek-devs/android_device_xiaomi_ruby" path="device/xiaomi/ruby" remote="github" revision="lineage-21" />
   <project name="LineageOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="lineage-21" />

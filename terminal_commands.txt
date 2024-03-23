@@ -15,26 +15,22 @@ echo vm.vfs_cache_pressure=10 | tee -a /etc/sysctl.conf
 #2. Updates & Cleanup
 sudo ubuntu-drivers install
 sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y
-sudo apt dist-upgrade -y
-sudo updade-manager
-sudo apt clean -y
 sudo apt update -m
+sudo do-release-upgrade
+sudo apt dist-upgrade -y
+sudo update-manager
 sudo dpkg --configure -a
 sudo apt install -f
-sudo apt autoremove --purge -y
-sudo do-release-upgrade -y
 sudo apt autoremove -y
-sudo apt autoclean -y
 sudo apt autoremove --purge -y
+sudo apt autoclean -y
 sudo apt clean -y
-
-sudo updade-manager -d
+sudo update-manager -d
 
 #3. Install commonly used packages
-sudo apt-get install gedit
-sudo apt-get install telegram-desktop
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i google-chrome-stable_current_amd64.deb && sudo apt-get install -f
-wget https://release.gitkraken.com/linux/gitkraken-amd64.deb && sudo apt-get install gitkraken-amd64.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i google-chrome-stable_current_amd64.deb && sudo apt-get install -f && rm -f google-chrome-stable_current_amd64.deb
+wget https://release.gitkraken.com/linux/gitkraken-amd64.deb && sudo dpkg -i gitkraken-amd64.deb && sudo apt-get install -f && rm -f gitkraken-amd64.deb
+wget https://cdn.akamai.steamstatic.com/client/installer/steam.deb && sudo dpkg -i steam_latest.deb && sudo apt-get install -f && rm -f steam_latest.deb
 
 #4. Reinstall required packages
 apt list --installed
