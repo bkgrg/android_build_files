@@ -70,3 +70,8 @@ sudo gedit /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
 
 Change the value to 2 for wifi.powersave
 wifi.powersave = 2
+
+#12. Snap-store error resolution
+ps aux | grep bin/snap-store
+kill <pid>
+sudo snap refresh snap-store
