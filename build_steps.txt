@@ -37,10 +37,10 @@ echo "mount /mnt/bc197ffa-f9a7-478f-8f83-5627e8820041/ccache" | tee -a ~/.profil
 source ~/.profile
 
 # Configure repo
-mkdir -p ~/.bin
-PATH="${HOME}/.bin:${PATH}"
-curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
-chmod a+rx ~/.bin/repo
+mkdir -p ~/bin
+PATH="${HOME}/bin:${PATH}"
+curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+chmod a+rx ~/bin/repo
 curl https://storage.googleapis.com/git-repo-downloads/repo > /usr/bin/repo
 
 #7. Configure git
@@ -76,7 +76,7 @@ cat >> ~/android/lineage/.repo/local_manifests/roomservice.xml << EOF
   <project name="xiaomi-mediatek-devs/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="lineage-21" />
   
   <!-- xiaomi-mediatek-devs wodanesdag-->
-  <project name="xiaomi-mediatek-devs/android_device_xiaomi_miuicamera-ruby" path="device/xiaomi/miuicamera-ruby" remote="github" revision="main" />
+  <project name="xiaomi-mediatek-devs/android_device_xiaomi_miuicamera-ruby" path="device/xiaomi/miuicamera-ruby" remote="github" revision="lineage-21" />
   
   <!-- Hardware Tree -->
   <!--xiaomi-mediatek-devs LineageOS-->  
