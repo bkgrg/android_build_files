@@ -2,7 +2,6 @@
 
 #1. Swapfile 16GB & swappiness=100 & cache_pressure=10
 sudo su
-swapoff -a
 swapoff -a -v
 rm /swapfile
 dd if=/dev/zero of=/swapfile bs=1M count=16000
