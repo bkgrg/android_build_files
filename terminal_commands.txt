@@ -6,8 +6,8 @@ swapoff -a -v
 rm /swapfile
 dd if=/dev/zero of=/swapfile bs=1M count=16000
 mkswap /swapfile && chmod 600 /swapfile && swapon /swapfile
-sysctl -w vm.swappiness=0 && echo vm.swappiness=100 | tee -a /etc/sysctl.conf
-sysctl -w vm.vfs_cache_pressure=100 && echo vm.vfs_cache_pressure=10 | tee -a /etc/sysctl.conf
+sysctl -w vm.swappiness=5 && echo vm.swappiness=5 | tee -a /etc/sysctl.conf
+sysctl -w vm.vfs_cache_pressure=100 && echo vm.vfs_cache_pressure=100 | tee -a /etc/sysctl.conf
 
 #2. Updates & Cleanup
 sudo ubuntu-drivers install
