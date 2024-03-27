@@ -51,6 +51,7 @@ git lfs install
 #8. Repo init Source
 mkdir -p ~/android/lineage && cd ~/android/lineage
 repo init -u https://github.com/LineageOS/android.git -b lineage-21.0 --git-lfs
+repo init -b main -cu https://android.googlesource.com/platform/manifest --depth=1
 
 #9. Add repo entry for Device Specific Codes
 cd ~/android/lineage
