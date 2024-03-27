@@ -3,9 +3,9 @@
 #1. Swapfile 16GB & swappiness=100 & cache_pressure=10
 sudo su
 swapoff -a -v
-rm /swapfile
-dd if=/dev/zero of=/swapfile bs=1M count=16000
-mkswap /swapfile && chmod 0600 /swapfile && swapon /swapfile
+rm /swap.img
+dd if=/dev/zero of=/swap.img bs=1M count=16000
+mkswap /swap.img && chmod 0600 /swap.img && swapon /swap.img
 sysctl -w vm.swappiness = 5 && echo vm.swappiness = 5 | tee -a /etc/sysctl.conf
 sysctl -w vm.vfs_cache_pressure = 100 && echo vm.vfs_cache_pressure = 100 | tee -a /etc/sysctl.conf
 
