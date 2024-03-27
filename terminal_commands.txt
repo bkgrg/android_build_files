@@ -11,7 +11,7 @@ sysctl -w vm.vfs_cache_pressure = 100 && echo vm.vfs_cache_pressure = 100 | tee 
 
 #2. Updates & Cleanup
 sudo ubuntu-drivers install
-sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y
+sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt dist-upgrade -y
 sudo update-manager
 sudo dpkg --configure -a
 sudo apt install -f
@@ -19,8 +19,6 @@ sudo apt autoremove -y
 sudo apt autoremove --purge -y
 sudo apt autoclean -y
 sudo apt clean -y
-
-sudo apt dist-upgrade -y
 sudo update-manager -d
 
 #3. Install commonly used packages
