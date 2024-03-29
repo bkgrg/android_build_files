@@ -10,7 +10,7 @@ sysctl -w vm.swappiness = 5 && echo vm.swappiness = 5 | tee -a /etc/sysctl.conf
 sysctl -w vm.vfs_cache_pressure = 100 && echo vm.vfs_cache_pressure = 100 | tee -a /etc/sysctl.conf
 
 #2. Updates & Cleanup
-sudo ubuntu-drivers install
+sudo nvidia-drivers install
 sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt dist-upgrade -y
 sudo update-manager
 sudo dpkg --configure -a
