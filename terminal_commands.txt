@@ -46,9 +46,9 @@ sort 9_avclogcat_1.txt | uniq > 9_avclogcat_2.txt
 touch ~/Templates/Untitled\ Document
 
 #8. Flash USB drive with ISO file
-lsblk
-sudo umount /dev/sdX
-sudo dd bs=4M if=xxx.iso of=/dev/sdX status=progress oflag=sync
+sudo umount /dev/sdc
+sudo mkfs.vfat /dev/sdc -I
+sudo dd bs=4M if=/home/brijesh/Downloads/debian-12.5.0-amd64-DVD-1.iso of=/dev/sdc status=progress oflag=sync
 
 #9. Steam - Take ownership of mountpoint to reflect the partition in steam
 sudo chown -R username:username /yourmounteddrivehere
