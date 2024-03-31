@@ -48,7 +48,7 @@ touch ~/Templates/Untitled\ Document
 #8. Flash USB drive with ISO file
 sudo umount /dev/sdc
 sudo mkfs.vfat /dev/sdc -I
-sudo dd bs=64M if=/home/brijesh/Downloads/debian-12.5.0-amd64-DVD-1.iso of=/dev/sdc status=progress oflag=sync
+sudo dd bs=128M if=/home/brijesh/Downloads/debian-12.5.0-amd64-DVD-1.iso of=/dev/sdc status=progress oflag=sync
 
 #9. Steam - Take ownership of mountpoint to reflect the partition in steam
 sudo chown -R username:username /yourmounteddrivehere
