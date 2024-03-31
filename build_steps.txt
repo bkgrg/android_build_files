@@ -14,7 +14,7 @@ EOF
 source ~/.profile
 
 #2. Install required packages
-sudo apt update -y && sudo apt-get install adb bison build-essential curl fastboot flex git-core git-lfs gnupg libncurses5 libxml2-utils repo xsltproc zip zlib1g-dev -y
+sudo apt update -y && sudo apt-get install adb bison build-essential curl fastboot flex git git-lfs gnupg libncurses5 libxml2-utils repo xsltproc zip zlib1g-dev -y
 
 wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libtinfo5_6.4-2_amd64.deb && sudo dpkg -i libtinfo5_6.4-2_amd64.deb && rm -f libtinfo5_6.4-2_amd64.deb
 wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libncurses5_6.4-2_amd64.deb && sudo dpkg -i libncurses5_6.4-2_amd64.deb && rm -f libncurses5_6.4-2_amd64.deb
