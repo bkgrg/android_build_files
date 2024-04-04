@@ -14,7 +14,7 @@ EOF
 source ~/.profile
 
 #2. Install required packages
-sudo apt update -y && sudo apt-get install adb bison build-essential curl fastboot flex git git-lfs gnupg libncurses5 libxml2-utils repo xsltproc zip zlib1g-dev -y
+sudo apt update -y && sudo apt-get install adb bison build-essential curl fastboot flex git git-lfs gnupg libncurses5 libxml2-utils xsltproc zip zlib1g-dev -y
 
 wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libtinfo5_6.4-2_amd64.deb && sudo dpkg -i libtinfo5_6.4-2_amd64.deb && rm -f libtinfo5_6.4-2_amd64.deb
 wget http://archive.ubuntu.com/ubuntu/pool/universe/n/ncurses/libncurses5_6.4-2_amd64.deb && sudo dpkg -i libncurses5_6.4-2_amd64.deb && rm -f libncurses5_6.4-2_amd64.deb
@@ -141,11 +141,7 @@ cd ~/android/lineage
 export LINEAGE_DEV_CERTIFICATE=vendor/certs/releasekey
 export LINEAGE_VERITY_CERTIFICATE=vendor/certs/verity
 export USE_CCACHE=1
-source build/envsetup.sh
-lunch lineage_ruby-eng
-croot
-num_procs=$(nproc)
-make -j$((num_procs - 1)) bacon |tee buildlog.txt
+source build/envsetup.sh && lunch lineage_ruby-eng && croot && num_procs=$(nproc) && make -j$((num_procs - 1)) bacon 2&>1 |tee buildlog.txt
 
 
 #14. Building signed copy
