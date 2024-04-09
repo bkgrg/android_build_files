@@ -76,3 +76,11 @@ wifi.powersave = 2
 ps aux | grep bin/snap-store
 kill <pid>
 sudo snap refresh snap-store
+
+#13. Configure Arch
+## add
+wget repo fontconfig android-tools git-lfs htop lib32-ncurses libxslt lib32-libxml2 xorgproto schedtool lib32-readline lib32-zlib libx11 libgl 
+nano gedit firefox  bluez bluez-utils steam telegram-desktop meld libreoffice-fresh
+
+## remove
+gnome-online-accounts gnome-tweaks gnome-user-docs gnome-user-share gnome-music gnome-maps gnome-contacts gnome-calendar gnome-weather gnome-tour gnome-text-editor evolution-data-server
