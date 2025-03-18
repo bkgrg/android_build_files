@@ -54,30 +54,23 @@ cat >> ~/android/.repo/local_manifests/roomservice.xml << EOF
   <remote  name="github"
            fetch="https://github.com" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
-
   <remote name="gitlab"
 	   fetch="https://gitlab.com" />
 
   <!-- Device Tree --> 
-  <project name="wodanesdag/android_device_xiaomi_ruby" path="device/xiaomi/ruby" remote="github" revision="14.0" />
-  <project name="wodanesdag/android_device_xiaomi_miuicamera-ruby" path="device/xiaomi/miuicamera-ruby" remote="github" revision="main" />
-  <project name="LineageOS/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="lineage-21" />
-  
-  <!-- xiaomi-mediatek-devs wodanesdag-->
-  <project name="xiaomi-mediatek-devs/android_device_xiaomi_miuicamera-ruby" path="device/xiaomi/miuicamera-ruby" remote="github" revision="lineage-21" />
+  <project name="rubyx-devs/device_xiaomi_ruby" path="device/xiaomi/ruby" remote="github" revision="lineage-22.0" />
+  <project name="xiaomi-mediatek-devs/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="lineage-22.2" />
   
   <!-- Hardware Tree -->
-  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-21" />
-  <project name="LineageOS/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-21" />
+  <project name="rxiaomi-mediatek-devs/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-22.2" />
+  <project name="xiaomi-mediatek-devs/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-22.2" />
+  <project name="rubyx-devs/hardware_lineage_compat" path="hardware/lineage/compat" remote="github" revision="lineage-22.1" />
   
   <!-- Kernel Tree -->
-  <project name="wodanesdag/android_kernel_xiaomi_mt6877" path="kernel/xiaomi/mt6877" remote="github" revision="lineage-21" />
+  <project name="rubyx-devs/kernel_xiaomi_mt6877" path="kernel/xiaomi/mt6877" remote="github" revision="lineage-22.0" />
   
   <!-- Vendor Tree -->
-  <project name="wodanesdag/android_vendor_xiaomi_ruby" path="vendor/xiaomi/ruby" remote="github" revision="14.0" />
-  <project name="wodanesdag/android_vendor_xiaomi_miuicamera-ruby" path="vendor/xiaomi/miuicamera-ruby" remote="github" revision="main" />
+  <project name="rubyx-devs/vendor_xiaomi_ruby" path="vendor/xiaomi/ruby" remote="github" revision="lineage-22.0" />
   <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="upsilon" />
   
 </manifest>
