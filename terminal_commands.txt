@@ -1,6 +1,33 @@
 ### Common Terminal Commands##################################################
 
-#1. Swapfile 16GB & swappiness=100 & cache_pressure=10
+#1. Archinstall packages
+Base System:
+	base base-devel efibootmgr intel-ucode linux linux-firmware
+	gst-plugin-pipewire libpulse pipewire pipewire-alsa pipewire-jack pipewire-pulse wireplumber
+	dkms linux-headers nvidia-dkms
+	ntfs-3g
+
+Desktop Environment:
+	thunar xfce4-panel xfce4-pulseaudio-plugin xfce4-session xfce4-settings xfce4-terminal xfwm4 xorg-server xorg-xinit
+
+Installed Apps:
+	htop
+	ttf-liberation 
+	dnsmasq libvirt qemu-full swtpm virt-install virt-manager virt-viewer
+	mousepad
+	nano
+	steam
+	telegram-desktop
+	transmission-gtk
+	vlc
+
+Android Development:
+	android-file-transfer android-tools git-lfs gperf imagemagick inetutils lib32-readline lzop ninja perl-switch pngcrush repo rsync schedtool sndio squashfs-tools unzip zip
+
+Installed AURs:
+   git clone https://aur.archlinux.com/google-chrome.git && cd google-chrome && makepkg -sri
+
+#2. Swapfile 16GB & swappiness=100 & cache_pressure=10
 sudo su
 swapoff -a -v
 rm /swap.img
@@ -9,36 +36,7 @@ mkswap /swap.img && chmod 0600 /swap.img && swapon /swap.img
 sysctl -w vm.swappiness = 5 && echo vm.swappiness = 5 | tee -a /etc/sysctl.conf
 sysctl -w vm.vfs_cache_pressure = 100 && echo vm.vfs_cache_pressure = 100 | tee -a /etc/sysctl.conf
 
-# Disable freedesktop service
-systemctl disable --now systemd-oomd
-
-
-#2. Updates & Cleanup
-sudo nvidia-drivers install
-sudo apt update -y && sudo apt upgrade -y && sudo apt full-upgrade -y && sudo apt dist-upgrade -y
-sudo update-manager
-sudo dpkg --configure -a
-sudo apt install -f
-sudo apt autoremove -y
-sudo apt autoremove --purge -y
-sudo apt autoclean -y
-sudo apt clean -y
-sudo update-manager -d
-
-#3. Install commonly used packages
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo dpkg -i google-chrome-stable_current_amd64.deb && sudo apt-get install -f && rm -f google-chrome-stable_current_amd64.deb
-wget https://release.gitkraken.com/linux/gitkraken-amd64.deb && sudo dpkg -i gitkraken-amd64.deb && sudo apt-get install -f && rm -f gitkraken-amd64.deb
-wget https://cdn.akamai.steamstatic.com/client/installer/steam.deb && sudo dpkg -i steam.deb && sudo apt-get install -f && rm -f steam.deb
-
-#4. Reinstall required packages
-apt list --installed
-sudo apt remove xxxx
-sudo apt autoremove -y
-sudo rm -r /xxx/xxx/xxxx
-sudo apt install xxxx
-sudo apt update
-
-#5. Find string in a folder containing files
+#3. Find string in a folder containing files
 grep -rlF "isolated_app" /home/bkgrg/android/lineage/
 
 #6. Find a string in all lines, remove other lines, remove all characters before the string in each line and export result
@@ -77,10 +75,7 @@ ps aux | grep bin/snap-store
 kill <pid>
 sudo snap refresh snap-store
 
-#13. Configure Arch
-## add
-wget repo fontconfig android-tools git-lfs htop lib32-ncurses libxslt lib32-libxml2 xorgproto schedtool lib32-readline lib32-zlib libx11 libgl 
-nano gedit firefox  bluez bluez-utils steam telegram-desktop meld libreoffice-fresh
+
 
 ## remove
 gnome-online-accounts gnome-tweaks gnome-user-docs gnome-user-share gnome-music gnome-maps gnome-contacts gnome-calendar gnome-weather gnome-tour gnome-text-editor evolution-data-server
