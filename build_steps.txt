@@ -51,28 +51,13 @@ cat >> ~/android/.repo/local_manifests/roomservice.xml << EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
-           fetch="https://github.com" />
-
-  <remote name="gitlab"
-	   fetch="https://gitlab.com" />
-
-  <!-- Device Tree --> 
-  <project name="rubyx-devs/device_xiaomi_ruby" path="device/xiaomi/ruby" remote="github" revision="lineage-22.0" />
-  <project name="xiaomi-mediatek-devs/android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="lineage-22.2" />
-  
-  <!-- Hardware Tree -->
-  <project name="rxiaomi-mediatek-devs/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-22.2" />
-  <project name="xiaomi-mediatek-devs/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-22.2" />
-  <project name="rubyx-devs/hardware_lineage_compat" path="hardware/lineage/compat" remote="github" revision="lineage-22.1" />
-  
-  <!-- Kernel Tree -->
+  <project name="rubyx-devs/device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="github" revision="lineage-22.2" />
+  <project name="rubyx-devs/device_xiaomi_rubyx" path="device/xiaomi/rubyx" remote="github" revision="lineage-22.2" />
+  <project name="rubyx-devs/hardware_mediatek" path="hardware/mediatek" remote="github" revision="lineage-22.2" />
+  <project name="rubyx-devs/hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-22.2" />
   <project name="rubyx-devs/kernel_xiaomi_mt6877" path="kernel/xiaomi/mt6877" remote="github" revision="lineage-22.0" />
-  
-  <!-- Vendor Tree -->
-  <project name="rubyx-devs/vendor_xiaomi_ruby" path="vendor/xiaomi/ruby" remote="github" revision="lineage-22.0" />
-  <project name="MindTheGapps/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="upsilon" />
-  
+  <project name="rubyx-devs/vendor_xiaomi_rubyx" path="vendor/xiaomi/rubyx" remote="github" revision="lineage-22.2" />
+
 </manifest>
 EOF
 
